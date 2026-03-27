@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Rooms | Sunday Resort Hafendorf Rheinsberg</title>
+
+    <meta
+      name="description"
+      content="Discover rooms at Sunday Resort Hafendorf Rheinsberg with lake views and comfortable design."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="rooms.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@600&family=Lora:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="preloader"><div class="loader"></div></div>
+
+    <!-- HEADER SAME -->
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/output-onlinepngtools.png"
+          /></a>
+        </div>
+
+        <div class="nav-container">
+          <nav class="main-navigation">
+            <ul class="nav-menu">
+              <li class="has-dropdown">
+                <a href="#">About</a>
+                <ul class="dropdown-menu">
+                  <li><a href="about.html">Our Story</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="gastronomy.html">Gastronomy</a></li>
+                  <li><a href="tourist-attractions.html">Attractions</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+              </li>
+
+              <li class="has-dropdown">
+                <a href="#">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html">Rooms</a></li>
+                  <li><a href="suites.html">Suites</a></li>
+                </ul>
+              </li>
+
+              <li class="has-dropdown">
+                <a href="#">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html">Pool Area</a></li>
+                  <li><a href="spa.html">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html">Indoor Playground</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="marina.html">Marina</a></li>
+              <li><a href="event.html">Meetings & Events</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="nav-book">
+          <a href="#" class="btn-book">Book Now</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section
+      class="hero-section"
+      style="
+        background-image: url(&quot;images/1_Accomodation/Classic Room/3_223 Classic_0013.jpg&quot;);
+      "
+    >
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <h1>Rooms</h1>
+        <p>Comfort and relaxation at Lake Rheinsberg</p>
+        <a href="#rooms" class="btn-primary">Explore Rooms</a>
+      </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section class="overview-section">
+      <div class="section-label">Rooms</div>
+
+      <div class="overview-container">
+        <div class="overview-divider"></div>
+
+        <h2>Discover the Comfort of Our Rooms</h2>
+
+        <p data-animate>
+          The Sunday Resort Hafendorf Rheinsberg offers individually designed
+          rooms with balconies and beautiful views of nature or the lake. Guests
+          enjoy comfort, maritime style and a relaxing atmosphere.
+        </p>
+
+        <div class="overview-divider"></div>
+      </div>
+    </section>
+
+    <!-- ROOMS -->
+    <section class="rooms-section" id="rooms">
+      <div class="section-label">Room Types</div>
+      <h2>Choose Your Room</h2>
+
+      <div class="rooms-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="classic">Classic</button>
+        <button class="filter-btn" data-filter="superior">Superior</button>
+      </div>
+
+      <div class="rooms-container">
+        <!-- CLASSIC -->
+        <div class="room-card" data-type="classic">
+          <img
+            src="images/1_Accomodation/Classic Room/2_223 Classic Detail_0006 klein.jpg"
+          />
+          <h3>Classic Room</h3>
+          <p>28 m² room with balcony and peaceful surroundings.</p>
+          <button class="details-btn" data-room="classic">Details</button>
+        </div>
+
+        <!-- CLASSIC LAKE -->
+        <div class="room-card" data-type="classic">
+          <img src="images/1_Accomodation/Classic Room View/6_IMG_4695.jpg" />
+          <h3>Classic Room (Lake View)</h3>
+          <p>28 m² room with balcony and side lake view.</p>
+          <button class="details-btn" data-room="lake">Details</button>
+        </div>
+
+        <!-- SUPERIOR -->
+        <div class="room-card" data-type="superior">
+          <img
+            src="images/1_Accomodation/Superior Room View/2_229 Superior Room with view Detail_0028.JPG"
+          />
+          <h3>Superior Room</h3>
+          <p>Room with direct lake view and modern design.</p>
+          <button class="details-btn" data-room="superior">Details</button>
+        </div>
+      </div>
+
+      <!-- MODAL -->
+      <div class="modal" id="roomModal">
+        <div class="modal-content">
+          <span class="modal-close">&times;</span>
+          <h3 id="modalTitle"></h3>
+          <div id="modalDetails"></div>
+          <a href="#" class="btn-primary">Book This Room</a>
+        </div>
+      </div>
+    </section>
+    <!-- KIDS / FAMILY SECTION -->
+    <section class="treatments-section">
+      <div class="treatments-container">
+        <div class="treatments-card">
+          <h3>Vacation with Your Dog</h3>
+
+          <p>
+            The Sunday Resort Hafendorf Rheinsberg warmly welcomes guests with
+            dogs. Enjoy a special holiday experience with your four-legged
+            companion in the beautiful natural surroundings.
+          </p>
+
+          <p>
+            Dogs are welcome in all room categories. Please inform us during
+            booking. Fee: €15 per pet per night.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="cta-container">
+        <h2>Book Your Stay</h2>
+        <p>Enjoy a relaxing stay at Hafendorf Rheinsberg</p>
+        <a href="#" class="btn-primary">Book Now</a>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <a href="contact.html" class="footer-button" data-key="contact_us"
+            >Contact Us</a
+          >
+          <address>
+            Sunday Resort Hafendorf Rheinsberg<br />
+            Hafendorfstr. 1<br />
+            16831 Rheinsberg, Germany<br />
+            <a href="tel:+49332756960">+49 33 931 800</a><br />
+            <a href="mailto:reception.rheinsberg@hotelssunday.com"
+              >reception.rheinsberg@hotelssunday.com</a
+            ><br />
+            <a href="mailto:reservations.rheinsberg@hotelssunday.com"
+              >reservations.rheinsberg@hotelssunday.com</a
+            >
+          </address>
+        </div>
+
+        <div class="footer-column">
+          <h4 data-key="quick_links">Quick Links</h4>
+          <ul>
+            <li>
+              <a href="rooms.html" data-key="footer_rooms">Rooms</a>
+            </li>
+            <li>
+              <a href="suites.html" data-key="footer_suites">Suites</a>
+            </li>
+            <li>
+              <a href="spa.html" data-key="footer_spa">Wellness & Spa</a>
+            </li>
+            <li>
+              <a href="gastronomy.html" data-key="footer_gastro">Gastronomy</a>
+            </li>
+            <li>
+              <a href="indoor-playground.html" data-key="footer_family"
+                >Indoor Playground</a
+              >
+            </li>
+            <li><a href="marina.html" data-key="footer_marina">Marina</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column newsletter">
+          <h4 data-key="newsletter">Newsletter</h4>
+          <form
+            action="https://formsubmit.co/sales.schwielowsee@hotelssunday.com"
+            method="POST"
+            class="newsletter-form"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email address"
+              required
+              data-key-placeholder="newsletter_placeholder"
+            />
+            <button class="btn" type="submit" data-key="subscribe">
+              Subscribe
+            </button>
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Newsletter Signup!"
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://resortschwielowsee.booksundays.com/newsletter?subscribed=true"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-key="footer_copy">© 2026 Sunday Resort Hafendorf Rheinsberg.</p>
+        <!-- <ul class="footer-legal">
+          <li>
+            <a href="terms.html" data-key="footer_terms">Terms & Conditions</a>
+          </li>
+          <li><a href="sitemap.html" data-key="footer_sitemap">Sitemap</a></li>
+        </ul> -->
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="rooms.js"></script>
+  </body>
+</html>

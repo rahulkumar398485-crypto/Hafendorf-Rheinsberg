@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Explore Rheinsberg | Sunday Resort Hafendorf Rheinsberg</title>
+
+    <meta
+      name="description"
+      content="Discover the natural and cultural highlights around Sunday Resort Hafendorf Rheinsberg including lakes, cycling routes and historic sites."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tourist-attractions.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@600&family=Lora:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="preloader"><div class="loader"></div></div>
+
+    <!-- HEADER (UNCHANGED) -->
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="images/output-onlinepngtools.png"
+              alt="Rheinsberg Resort"
+            />
+          </a>
+        </div>
+
+        <div class="nav-container">
+          <nav class="main-navigation">
+            <ul class="nav-menu">
+              <li class="has-dropdown">
+                <a href="#">About</a>
+                <ul class="dropdown-menu">
+                  <li><a href="about.html">Our Story</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="gastronomy.html">Gastronomy</a></li>
+                  <li><a href="tourist-attractions.html">Attractions</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+              </li>
+
+              <li class="has-dropdown">
+                <a href="#">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html">Rooms</a></li>
+                  <li><a href="suites.html">Suites</a></li>
+                </ul>
+              </li>
+
+              <li class="has-dropdown">
+                <a href="contact.html">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html">Pool Area</a></li>
+                  <li><a href="spa.html">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html">Indoor Playground</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="marina.html">Marina</a></li>
+              <li><a href="event.html">Meetings & Events</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="nav-book">
+          <a href="#" class="btn-book">Book Now</a>
+        </div>
+
+        <div class="mobile-menu-toggle">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section
+      class="hero-section"
+      style="
+        background-image: url(&quot;images/Rheinsberg\ Castle\ Main.jpg&quot;);
+      "
+    >
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <h1>Explore Rheinsberg</h1>
+        <p>Discover nature, lakes and cultural highlights</p>
+        <a href="#attractions" class="btn-primary">Discover Attractions</a>
+      </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section class="overview-section">
+      <div class="section-label">Lake District Adventures</div>
+
+      <div class="overview-container">
+        <div class="overview-divider"></div>
+
+        <h2>Experience the Beauty of Rheinsberg</h2>
+
+        <p data-animate>
+          The Sunday Resort Hafendorf Rheinsberg is located in the beautiful
+          Mecklenburg Lake District. Surrounded by lakes, forests and historic
+          towns, the region offers endless opportunities for relaxation,
+          exploration and outdoor activities.
+        </p>
+
+        <div class="overview-divider"></div>
+      </div>
+    </section>
+
+    <!-- ATTRACTIONS -->
+    <section class="attractions-section" id="attractions">
+      <div class="section-label">Top Attractions</div>
+      <h2>Discover the Region</h2>
+
+      <div class="attractions-container">
+        <!-- CARD 1 -->
+        <div class="attraction-card" data-animate>
+          <img src="images/Ruppiner Seenland.jpeg" />
+          <h3>Ruppiner Seenland</h3>
+          <p>
+            A beautiful lake region connecting Berlin with the Mecklenburg Lake
+            District, perfect for boating, canoeing and exploring nature.
+          </p>
+          <button class="details-btn" data-attraction="lake">Details</button>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="attraction-card" data-animate>
+          <img src="images/laufpark-stechlin park.jpg" />
+          <h3>Stechlin Running Park</h3>
+          <p>
+            Over 350 km of marked trails for running, hiking and Nordic walking
+            in a stunning natural environment.
+          </p>
+          <button class="details-btn" data-attraction="park">Details</button>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="attraction-card" data-animate>
+          <img src="images/Cycling Tours.jpg" />
+          <h3>Cycling Tours</h3>
+          <p>
+            Discover the “land of a thousand lakes” by bike with scenic routes
+            through forests, villages and along waterways.
+          </p>
+          <button class="details-btn" data-attraction="cycling">Details</button>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="attraction-card" data-animate>
+          <img src="images/Hiking Trails.jpg" />
+          <h3>Hiking Trails</h3>
+          <p>
+            A wide network of hiking trails offers year-round experiences in
+            nature with lakes, forests and wildlife.
+          </p>
+          <button class="details-btn" data-attraction="hiking">Details</button>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="attraction-card" data-animate>
+          <img src="images/Rheinsberg Castle.jpg" />
+          <h3>Rheinsberg Castle</h3>
+          <p>
+            A historic cultural highlight where Frederick the Great once lived,
+            surrounded by beautiful gardens and lakes.
+          </p>
+          <button class="details-btn" data-attraction="castle">Details</button>
+        </div>
+      </div>
+
+      <!-- MODAL -->
+      <div class="modal" id="attractionModal">
+        <div class="modal-content">
+          <span class="modal-close">&times;</span>
+          <h3 id="modalTitle"></h3>
+          <div id="modalDetails"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="cta-container">
+        <h2>Plan Your Lake Adventure</h2>
+
+        <p>
+          Discover the beauty of the Mecklenburg Lake District while staying at
+          Sunday Resort Hafendorf Rheinsberg.
+        </p>
+
+        <a href="contact.html" class="btn-primary">Book Your Stay</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <a href="contact.html" class="footer-button" data-key="contact_us"
+            >Contact Us</a
+          >
+          <address>
+            Sunday Resort Hafendorf Rheinsberg<br />
+            Hafendorfstr. 1<br />
+            16831 Rheinsberg, Germany<br />
+            <a href="tel:+49332756960">+49 33 931 800</a><br />
+            <a href="mailto:reception.rheinsberg@hotelssunday.com"
+              >reception.rheinsberg@hotelssunday.com</a
+            ><br />
+            <a href="mailto:reservations.rheinsberg@hotelssunday.com"
+              >reservations.rheinsberg@hotelssunday.com</a
+            >
+          </address>
+        </div>
+
+        <div class="footer-column">
+          <h4 data-key="quick_links">Quick Links</h4>
+          <ul>
+            <li>
+              <a href="rooms.html" data-key="footer_rooms">Rooms</a>
+            </li>
+            <li>
+              <a href="suites.html" data-key="footer_suites">Suites</a>
+            </li>
+            <li>
+              <a href="spa.html" data-key="footer_spa">Wellness & Spa</a>
+            </li>
+            <li>
+              <a href="gastronomy.html" data-key="footer_gastro">Gastronomy</a>
+            </li>
+            <li>
+              <a href="indoor-playground.html" data-key="footer_family"
+                >Indoor Playground</a
+              >
+            </li>
+            <li><a href="marina.html" data-key="footer_marina">Marina</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column newsletter">
+          <h4 data-key="newsletter">Newsletter</h4>
+          <form
+            action="https://formsubmit.co/sales.schwielowsee@hotelssunday.com"
+            method="POST"
+            class="newsletter-form"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email address"
+              required
+              data-key-placeholder="newsletter_placeholder"
+            />
+            <button class="btn" type="submit" data-key="subscribe">
+              Subscribe
+            </button>
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Newsletter Signup!"
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://resortschwielowsee.booksundays.com/newsletter?subscribed=true"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-key="footer_copy">© 2026 Sunday Resort Hafendorf Rheinsberg.</p>
+        <!-- <ul class="footer-legal">
+          <li>
+            <a href="terms.html" data-key="footer_terms">Terms & Conditions</a>
+          </li>
+          <li><a href="sitemap.html" data-key="footer_sitemap">Sitemap</a></li>
+        </ul> -->
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="tourist-attractions.js"></script>
+  </body>
+</html>

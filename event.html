@@ -23,88 +23,119 @@
   <body>
     <div class="preloader"><div class="loader"></div></div>
 
-    <!-- HEADER -->
+    <!-- HEADER (UNCHANGED STRUCTURE) -->
     <header class="site-header">
       <div class="header-container">
         <div class="logo">
-          <a href="index.html"
-            ><img src="images/output-onlinepngtools.png"
-          /></a>
+          <a href="index.html">
+            <img
+              src="images/output-onlinepngtools.png"
+              alt="Rheinsberg Resort"
+              data-key-alt="logo_alt"
+            />
+          </a>
         </div>
 
         <div class="nav-container">
           <nav class="main-navigation">
             <ul class="nav-menu">
               <li class="has-dropdown">
-                <a href="#">About</a>
+                <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">Our Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="gastronomy.html">Gastronomy</a></li>
-                  <li><a href="tourist-attractions.html">Attractions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Accommodation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="suites.html">Suites</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Wellness</a>
-                <ul class="dropdown-menu">
-                  <li><a href="pool.html">Pool Area</a></li>
-                  <li><a href="spa.html">Spa</a></li>
                   <li>
-                    <a href="indoor-playground.html">Indoor Playground</a>
+                    <a href="about.html" data-key="nav_story">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" data-key="nav_contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="gastronomy.html" data-key="nav_gastronomy"
+                      >Gastronomy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="tourist-attractions.html"
+                      data-key="nav_attractions"
+                      >Attractions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="gallery.html" data-key="nav_gallery">Gallery</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="marina.html">Marina</a></li>
-              <li><a href="event.html">Meetings & Events</a></li>
+
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_accommodation">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html" data-key="nav_rooms">Rooms</a></li>
+                  <li>
+                    <a href="suites.html" data-key="nav_suites">Suites</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_wellness">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html" data-key="nav_pool">Pool Area</a></li>
+                  <li><a href="spa.html" data-key="nav_spa">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html" data-key="nav_playground"
+                      >Indoor Playground</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="marina.html" data-key="nav_marina">Marina</a></li>
+              <li>
+                <a href="event.html" data-key="nav_events">Meetings & Events</a>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="nav-book">
-          <a href="#" class="btn-book">Book Now</a>
+          <a href="#" class="btn-book" data-key="book_now">Book Now</a>
+          <button id="langToggle" class="lang-btn">DE</button>
+        </div>
+
+        <div class="mobile-menu-toggle">
+          <span></span><span></span><span></span>
         </div>
       </div>
-    </header>
+    </header> 
+       <!-- HERO -->
+    <section class="hero-section"
+      style="background-image: url('images/7_Meetings & Events/2_C1-C2_0002.jpg');">
 
-    <!-- HERO -->
-    <section
-      class="hero-section"
-      style="
-        background-image: url(&quot;images/7_Meetings & Events/2_C1-C2_0002.jpg&quot;);
-      "
-    >
       <div class="hero-overlay"></div>
 
       <div class="hero-content">
-        <h1>Meetings & Events</h1>
-        <p>A unique venue for your event</p>
-        <a href="#event-spaces" class="btn-primary">Explore Spaces</a>
+        <h1 data-key="events_hero_title">Meetings & Events</h1>
+        <p data-key="events_hero_text">A unique venue for your event</p>
+        <a href="#event-spaces" class="btn-primary" data-key="events_hero_btn">
+          Explore Spaces
+        </a>
       </div>
     </section>
 
     <!-- OVERVIEW -->
     <section class="overview-section">
       <div class="overview-container">
-        <h2 class="section-heading">A Unique Venue for Your Event</h2>
+        <h2 class="section-heading" data-key="events_overview_title">
+          A Unique Venue for Your Event
+        </h2>
 
         <div class="overview-divider"></div>
 
-        <p data-animate>
+        <p data-animate data-key="events_overview_text1">
           The Sunday Resort Hafendorf Rheinsberg offers approximately 3,000 m²
           of multifunctional meeting space with 11 versatile event rooms.
         </p>
 
-        <p data-animate>
+        <p data-animate data-key="events_overview_text2">
           Whether seminars, conferences or private celebrations – modern
           facilities and flexible layouts ensure the perfect setting for every
           event.
@@ -114,80 +145,98 @@
 
     <!-- EVENT SPACES -->
     <section class="event-spaces-section" id="event-spaces">
-      <div class="section-label">Event Spaces</div>
+      <div class="section-label" data-key="events_spaces_label">Event Spaces</div>
 
       <div class="event-spaces-container">
-        <div class="space-card" data-animate>
+        <div class="space-card"  data-animate>
           <img src="images/7_Meetings & Events/1_Tagung_0012.JPG" />
-          <h3>Conference Rooms</h3>
-          <p>Flexible meeting rooms equipped for seminars and conferences.</p>
+
+          <h3 data-key="events_space1_title">Conference Rooms</h3>
+
+          <p data-key="events_space1_text">
+            Flexible meeting rooms equipped for seminars and conferences.
+          </p>
         </div>
 
         <div class="space-card" data-animate>
-          <img
-            src="images/7_Meetings & Events/tagung 4 csm_RHH_324_Bibliothek_eff3811cfb.jpg"
-          />
-          <h3>Private Celebrations</h3>
-          <p>Perfect venues for weddings, parties and special occasions.</p>
+          <img src="images/7_Meetings & Events/tagung 4 csm_RHH_324_Bibliothek_eff3811cfb.jpg" />
+
+          <h3 data-key="events_space2_title">Private Celebrations</h3>
+
+          <p data-key="events_space2_text">
+            Perfect venues for weddings, parties and special occasions.
+          </p>
         </div>
 
         <div class="space-card" data-animate>
-          <img
-            src="images/7_Meetings & Events/4_csm_RHH_145_Kolumbushalle_bd1d7a14cf kolumbus.jpg"
-          />
-          <h3>Large Event Spaces</h3>
-          <p>Spacious areas suitable for large-scale events and conferences.</p>
+          <img src="images/7_Meetings & Events/4_csm_RHH_145_Kolumbushalle_bd1d7a14cf kolumbus.jpg" />
+
+          <h3 data-key="events_space3_title">Large Event Spaces</h3>
+
+          <p data-key="events_space3_text">
+            Spacious areas suitable for large-scale events and conferences.
+          </p>
         </div>
       </div>
     </section>
 
     <!-- AMENITIES -->
     <section class="amenities-section">
-      <div class="section-label">Facilities</div>
+      <div class="section-label" data-key="events_facilities_label">Facilities</div>
 
       <div class="amenities-container">
+
         <div class="amenity-card" data-animate>
-          <h3>Modern Equipment</h3>
-          <p>Fully equipped meeting rooms with modern technology.</p>
+          <h3 data-key="events_amenity1_title">Modern Equipment</h3>
+          <p data-key="events_amenity1_text">
+            Fully equipped meeting rooms with modern technology.
+          </p>
         </div>
 
         <div class="amenity-card" data-animate>
-          <h3>Accommodation</h3>
-          <p>Guests can stay in comfortable rooms and suites.</p>
+          <h3 data-key="events_amenity2_title">Accommodation</h3>
+          <p data-key="events_amenity2_text">
+            Guests can stay in comfortable rooms and suites.
+          </p>
         </div>
 
         <div class="amenity-card" data-animate>
-          <h3>Catering</h3>
-          <p>Customized catering from our restaurants and chefs.</p>
+          <h3 data-key="events_amenity3_title">Catering</h3>
+          <p data-key="events_amenity3_text">
+            Customized catering from our restaurants and chefs.
+          </p>
         </div>
 
         <div class="amenity-card" data-animate>
-          <h3>Wellness Access</h3>
-          <p>Relax after events in spa and wellness facilities.</p>
+          <h3 data-key="events_amenity4_title">Wellness Access</h3>
+          <p data-key="events_amenity4_text">
+            Relax after events in spa and wellness facilities.
+          </p>
         </div>
+
       </div>
     </section>
 
     <!-- PACKAGES -->
     <section class="packages-section">
-      <div class="section-label">Event Types</div>
+      <div class="section-label" data-key="events_packages_label">Event Types</div>
 
       <div class="packages-container">
         <div class="package-card" data-animate>
-          <h3>Weddings</h3>
+          <h3 data-key="events_package1_title">Weddings</h3>
           <ul>
-            <li>Custom event planning</li>
-            <li>Decorations & catering</li>
-            <li>Unforgettable celebration</li>
+            <li data-key="events_package1_item1">Custom event planning</li>
+            <li data-key="events_package1_item2">Decorations & catering</li>
+            <li data-key="events_package1_item3">Unforgettable celebration</li>
           </ul>
         </div>
 
         <div class="package-card" data-animate>
-          <h3>Meetings</h3>
+          <h3 data-key="events_package2_title">Meetings</h3>
           <ul>
-            <li>Modern conference rooms</li>
-            <li>Professional support</li>
-            <li>Flexible layouts</li>
+            <li data-key="events_package2_item1">Modern conference rooms</li>
+            <li data-key="events_package2_item2">Professional support</li>
+            <li data-key="events_package2_item3">Flexible layouts</li>
           </ul>
         </div>
       </div>
@@ -196,16 +245,20 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-container">
-        <h2>Plan Your Event</h2>
+        <h2 data-key="events_cta_title">Plan Your Event</h2>
 
-        <p>Our team will help you organize a successful event</p>
-        <p>
+        <p data-key="events_cta_text">
+          Our team will help you organize a successful event
+        </p>
+         <p>
           <a href="mailto:mice.rheinsberg@hotelssunday.com"
             >mice.rheinsberg@hotelssunday.com</a
           >
         </p>
 
-        <a href="contact.html" class="btn-primary">Contact Us</a>
+        <a href="contact.html" class="btn-primary" data-key="events_cta_btn">
+          Contact Us
+        </a>
       </div>
     </section>
     <!-- FOOTER -->

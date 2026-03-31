@@ -1,0 +1,518 @@
+{
+  "page_title": "Sunday Resort Hafendorf Rheinsberg",
+  "meta_description": "Sunday Resort Hafendorf Rheinsberg – Ihr idyllischer Rückzugsort am Rheinsberger See mit Marina, Wellness und Gastronomie.",
+
+  "nav_about": "Über uns",
+  "nav_story": "Unsere Geschichte",
+  "nav_contact": "Kontakt",
+  "nav_gastronomy": "Gastronomie",
+  "nav_attractions": "Sehenswürdigkeiten",
+  "nav_gallery": "Galerie",
+
+  "nav_accommodation": "Unterkunft",
+  "nav_rooms": "Zimmer",
+  "nav_suites": "Suiten",
+
+  "nav_wellness": "Wellness",
+  "nav_pool": "Poolbereich",
+  "nav_spa": "Spa",
+  "nav_playground": "Indoor Spielplatz",
+
+  "nav_marina": "Marina",
+  "nav_events": "Tagungen & Veranstaltungen",
+
+  "book_now": "Jetzt buchen",
+
+  "hero_title": "Sunday Resort Hafendorf Rheinsberg",
+  "hero_subtitle": "Ein idyllischer Rückzugsort direkt am Rheinsberger See",
+  "hero_cta": "Jetzt buchen",
+
+  "hero_slide2_title": "Komfortable Zimmer & Suiten",
+  "hero_slide2_desc": "Stilvolle Unterkünfte mit Blick auf See und Marina",
+  "hero_slide2_cta": "Zimmer entdecken",
+
+  "hero_slide3_title": "Wellness & Entspannung",
+  "hero_slide3_desc": "2.000 m² Spa-Bereich für Körper und Geist",
+  "hero_slide3_cta": "Wellness entdecken",
+
+  "quote_text": "Entspannung, Natur und maritimes Flair im Mecklenburgischen Seenland",
+
+  "section_highlights": "Highlights",
+  "highlight_rooms": "Zimmer",
+  "highlight_suites": "Suiten",
+  "highlight_spa": "Wellness & Spa",
+  "highlight_gastro": "Gastronomie",
+  "highlight_marina": "Marina",
+  "highlight_events": "Tagungen & Events",
+
+  "section_discover": "Entdecken",
+  "discover_title": "Ein Resort inmitten der Natur",
+  "discover_desc": "Willkommen im Sunday Resort Hafendorf Rheinsberg – Ihrem Rückzugsort am Wasser, wo Entspannung, Natur und stilvoller Komfort zusammenkommen. Im Mecklenburgischen Seenland gelegen, ist es der perfekte Ort für eine erholsame Auszeit.",
+  "learn_more": "Mehr erfahren",
+
+  "section_accommodation": "Unterkunft",
+  "accommodation_title": "Zimmer & Suiten mit Seeblick",
+  "accommodation_desc": "Genießen Sie Zimmer im maritimen Stil und elegante Suiten mit Blick auf Hafen, Leuchtturm und Natur.",
+  "view_accommodation": "Unterkünfte ansehen",
+
+  "section_wellness": "Wellness",
+  "wellness_title": "Ein Ort zum Wohlfühlen",
+  "wellness_desc": "Entspannen Sie im 2.000 m² großen Wellnessbereich mit Pool, Sauna und Spa-Anwendungen.",
+  "explore_wellness": "Wellness entdecken",
+
+  "section_explore": "Rheinsberg entdecken",
+  "explore_lake": "Rheinsberger See",
+  "explore_castle": "Schloss Rheinsberg",
+  "explore_cycling": "Radtouren",
+  "explore_hiking": "Wanderwege",
+
+  "contact_us": "Kontakt",
+  "quick_links": "Schnellzugriff",
+  "newsletter": "Newsletter",
+  "subscribe": "Abonnieren",
+
+  "footer_rooms": "Zimmer",
+  "footer_suites": "Suiten",
+  "footer_spa": "Wellness & Spa",
+  "footer_gastro": "Gastronomie",
+  "footer_marina": "Marina",
+  "footer_family": "Indoor Spielplatz",
+
+  "footer_copy": "© 2026 Sunday Resort Hafendorf Rheinsberg",
+
+  "newsletter_placeholder": "Ihre E-Mail-Adresse",
+  "about_page_title": "Über Sunday Resort Hafendorf Rheinsberg",
+  "about_meta_description": "Entdecken Sie das Sunday Resort Hafendorf Rheinsberg – ein idyllisches Resort am Rheinsberger See mit Marina, Wellness und Gastronomie.",
+
+  "about_hero_title": "Sunday Resort Hafendorf Rheinsberg",
+  "about_hero_desc": "Ein idyllischer Rückzugsort direkt am Rheinsberger See",
+ 
+
+  "about_section_story": "Unsere Geschichte",
+
+  "about_nature_title": "Ein Resort am Wasser",
+  "about_nature_desc": "Willkommen im Sunday Resort Hafendorf Rheinsberg – Ihrem Rückzugsort am Wasser, wo Entspannung, Natur und stilvoller Komfort zusammenkommen. Im malerischen Mecklenburgischen Seenland gelegen, bietet das Resort eine einzigartige Kombination aus Ruhe und maritimem Flair.",
+
+  "about_guest_title": "Perfekt für jeden Aufenthalt",
+  "about_guest_desc": "Ob Sie einen erholsamen Urlaub, ein aktives Wochenende oder eine besondere Auszeit suchen – hier werden Sie fündig. Genießen Sie großzügige Zimmer und Suiten, kulinarische Highlights, Wellnessangebote und entdecken Sie die umliegende Seenlandschaft sowie das historische Rheinsberg mit seinem berühmten Schloss.",
+
+  "about_location_label": "Lage",
+  "about_location_title": "Rheinsberger See",
+  "about_location_desc": "Im Mecklenburgischen Seenland gelegen, ist das Resort von Natur, Wasser und idyllischen Landschaften umgeben – ideal für Erholung und Outdoor-Aktivitäten.",
+
+  "about_nearby": "Sehenswürdigkeiten in der Nähe:",
+  "about_attr1": "Schloss Rheinsberg",
+  "about_attr2": "Ruppiner Seenland",
+  "about_attr3": "Stechlin Laufpark",
+  "about_attr4": "Radwege im Seenland",
+
+  "about_why": "Warum Gäste es lieben",
+  "about_why1": "Direkter Zugang zum See und Marina",
+  "about_why2": "Perfekt für Bootsfahrten und Wassersport",
+  "about_why3": "Wunderschöne Natur",
+  "about_why4": "Ideal zum Wandern und Radfahren",
+
+  "about_values_label": "Was wir bieten",
+  "about_values_title": "Das Beste von Rheinsberg erleben",
+
+  "about_val1_title": "Komfortable Zimmer & Suiten",
+  "about_val1_desc": "Zimmer im maritimen Stil und elegante Suiten mit Blick auf Hafen und Natur.",
+
+  "about_val2_title": "Wellness & Spa",
+  "about_val2_desc": "2.000 m² Wellnessbereich mit Pool, Sauna und Anwendungen.",
+
+  "about_val3_title": "Gastronomie",
+  "about_val3_desc": "Regionale und internationale Küche in Restaurants mit Seeblick.",
+
+  "about_val4_title": "Marina Erlebnis",
+  "about_val4_desc": "Entdecken Sie die Marina, mieten Sie Boote oder genießen Sie das Leben am Wasser.",
+  "logo_alt": "Sunday Resort Hafendorf Rheinsberg",
+   "contact_page_title": "Kontakt Sunday Resort Hafendorf Rheinsberg",
+  "contact_meta_description": "Kontaktieren Sie das Sunday Resort Hafendorf Rheinsberg für Buchungen, Marina-Aufenthalte, Wellness und Veranstaltungen am Rheinsberger See.",
+
+  "contact_title": "Kontakt",
+  "contact_desc": "Planen Sie Ihren Aufenthalt im Sunday Resort Hafendorf Rheinsberg",
+  "contact_cta": "Kontakt aufnehmen",
+
+  "contact_form_label": "Kontakt aufnehmen",
+
+  "contact_info_label": "Kontaktinformationen",
+  "contact_reach": "Erreichen Sie uns",
+  "contact_hotel_name": "Sunday Resort Hafendorf Rheinsberg",
+
+  "contact_getting_here": "Anreise",
+  "contact_travel": "Anreise zum Rheinsberger See",
+
+  "contact_train": "Mit dem Zug",
+  "contact_train_desc": "Anreise über Berlin bis Bahnhof Rheinsberg. Von dort erreichen Sie das Resort bequem per Taxi.",
+
+  "contact_car": "Mit dem Auto",
+  "contact_car_desc": "Leicht erreichbar von Berlin (ca. 1,5 Stunden). Folgen Sie den Schildern Richtung Rheinsberg in Brandenburg.",
+
+  "contact_air": "Mit dem Flugzeug",
+  "contact_air_desc": "Nächster Flughafen: Berlin Brandenburg Airport (BER), ca. 100 km entfernt.",
+  "gastro_page_title": "Gastronomie | Sunday Resort Hafendorf Rheinsberg",
+  "gastro_meta_description": "Genießen Sie kulinarische Erlebnisse im Sunday Resort Hafendorf Rheinsberg mit Restaurants, Bar und Marina-Gastronomie.",
+
+  "gastro_title": "Gastronomie",
+  "gastro_desc": "Eine kulinarische Reise am Rheinsberger See",
+  "gastro_cta": "Restaurants ansehen",
+
+  "gastro_overview_title": "Eine kulinarische Reise",
+  "gastro_overview_desc": "Das Sunday Resort Hafendorf Rheinsberg bietet eine große Vielfalt an kulinarischen Erlebnissen. Restaurants und Bars sind der zentrale Treffpunkt für Frühstück, Abendessen oder einen entspannten Drink am Wasser. Gäste genießen kreative regionale und internationale Spezialitäten in stilvoller maritimer Atmosphäre.",
+
+  "gastro_rest1_title": "LUV & LEE Restaurant",
+  "gastro_rest1_desc": "Das Halbpensionsrestaurant bietet frische regionale Küche direkt an der Marina. Genießen Sie Fisch-, Fleisch- und vegetarische Gerichte mit herrlichem Blick auf den Rheinsberger See.",
+  "gastro_rest1_time1": "Frühstück: 7:00 – 10:30",
+  "gastro_rest1_time2": "Abendessen: 17:30 – 20:00 (Fr–Sa bis 21:00)",
+
+  "gastro_rest2_title": "Seaport Bar & Restaurant",
+  "gastro_rest2_desc": "Ein entspanntes kulinarisches Erlebnis mit regionalen und internationalen Gerichten in moderner maritimer Atmosphäre direkt am Hafen.",
+  "gastro_rest2_time": "Saisonal geöffnet",
+
+  "gastro_rest3_title": "Hafenbar",
+  "gastro_rest3_desc": "Genießen Sie Cocktails, Weine und erfrischende Getränke mit traumhaftem Blick aufs Wasser. Der perfekte Ort zum Entspannen nach einem Tag am See.",
+  "gastro_rest3_time": "Täglich geöffnet",
+
+  "gastro_rest4_title": "Nachtclub 53°/12°",
+  "gastro_rest4_desc": "Erleben Sie ein lebendiges Nachtleben mit Musik, Cocktails und stilvoller Atmosphäre direkt am Wasser.",
+  "gastro_rest4_time": "An ausgewählten Tagen geöffnet",
+
+  "gastro_cta_title": "Tisch reservieren",
+  "gastro_cta_desc": "Genießen Sie unvergessliche kulinarische Erlebnisse im Sunday Resort Hafendorf Rheinsberg.",
+  "gastro_cta_phone_label": "Restaurant Telefonnummer",
+  "ta_page_title": "Rheinsberg entdecken | Sunday Resort Hafendorf Rheinsberg",
+  "ta_meta_description": "Entdecken Sie die natürlichen und kulturellen Highlights rund um das Sunday Resort Hafendorf Rheinsberg mit Seen, Radwegen und historischen Sehenswürdigkeiten.",
+
+  "ta_title": "Rheinsberg entdecken",
+  "ta_desc": "Entdecken Sie Natur, Seen und kulturelle Highlights",
+  "ta_cta": "Attraktionen entdecken",
+
+  "ta_label": "Abenteuer im Seengebiet",
+
+  "ta_overview_title": "Die Schönheit von Rheinsberg erleben",
+  "ta_overview_desc": "Das Sunday Resort Hafendorf Rheinsberg liegt in der wunderschönen Mecklenburgischen Seenplatte. Umgeben von Seen, Wäldern und historischen Städten bietet die Region unzählige Möglichkeiten für Erholung, Entdeckung und Outdoor-Aktivitäten.",
+
+  "ta_top_label": "Top Sehenswürdigkeiten",
+  "ta_top_title": "Region entdecken",
+
+  "ta_attr1_title": "Ruppiner Seenland",
+  "ta_attr1_desc": "Eine wunderschöne Seenlandschaft zwischen Berlin und der Mecklenburgischen Seenplatte, ideal zum Bootfahren, Kanufahren und Naturerkunden.",
+
+  "ta_attr2_title": "Laufpark Stechlin",
+  "ta_attr2_desc": "Über 350 km ausgeschilderte Strecken zum Laufen, Wandern und Nordic Walking in einer beeindruckenden Naturlandschaft.",
+
+  "ta_attr3_title": "Radtouren",
+  "ta_attr3_desc": "Entdecken Sie das Land der tausend Seen mit dem Fahrrad auf malerischen Routen durch Wälder, Dörfer und entlang von Gewässern.",
+
+  "ta_attr4_title": "Wanderwege",
+  "ta_attr4_desc": "Ein weitläufiges Netz an Wanderwegen bietet ganzjährig Naturerlebnisse mit Seen, Wäldern und Tierwelt.",
+
+  "ta_attr5_title": "Schloss Rheinsberg",
+  "ta_attr5_desc": "Ein historisches Kulturhighlight, in dem einst Friedrich der Große lebte, umgeben von wunderschönen Gärten und Seen.",
+
+  "ta_details": "Details",
+
+  "ta_cta_title": "Planen Sie Ihr See-Abenteuer",
+  "ta_cta_desc": "Entdecken Sie die Schönheit der Mecklenburgischen Seenplatte während Ihres Aufenthalts im Sunday Resort Hafendorf Rheinsberg.",
+   "gallery_page_title": "Galerie | Sunday Resort Hafendorf Rheinsberg",
+  "gallery_meta_description": "Entdecken Sie das Sunday Resort Hafendorf Rheinsberg in unserer Fotogalerie.",
+
+  "gallery_title": "Galerie",
+  "gallery_desc": "Entdecken Sie die Schönheit von Hafendorf Rheinsberg",
+  "gallery_cta": "Galerie entdecken",
+
+  "gallery_label": "Momente im Resort",
+  "gallery_heading": "Hafendorf Rheinsberg entdecken",
+
+  "gallery_all": "Alle",
+  "gallery_hotel": "Hotel",
+  "gallery_marina": "Marina",
+  "gallery_wellness": "Wellness",
+  "gallery_nature": "Natur",
+
+  "gallery_img1": "Komfortable Zimmer & Suiten",
+  "gallery_img2": "Elegante Suiten-Innenräume",
+  "gallery_img3": "Marina am Rheinsberger See",
+  "gallery_img4": "Entspannender Spa- & Wellnessbereich",
+  "gallery_img5": "Landschaft am Rheinsberger See",
+  "gallery_img6": "Schloss Rheinsberg",
+
+  "gallery_cta_title": "Erleben Sie das Resort",
+  "gallery_cta_desc": "Planen Sie Ihren Aufenthalt im Sunday Resort Hafendorf Rheinsberg und genießen Sie unvergessliche Momente.",
+   "room_page_title": "Zimmer | Sunday Resort Hafendorf Rheinsberg",
+  "room_meta_description": "Entdecken Sie Zimmer im Sunday Resort Hafendorf Rheinsberg mit Seeblick und komfortablem Design.",
+
+  "room_title": "Zimmer",
+  "room_desc": "Komfort und Entspannung am Rheinsberger See",
+  "room_cta": "Zimmer entdecken",
+
+  "room_label": "Zimmer",
+  "room_overview_title": "Entdecken Sie den Komfort unserer Zimmer",
+  "room_overview_desc": "Das Sunday Resort Hafendorf Rheinsberg bietet individuell gestaltete Zimmer mit Balkon und wunderschönem Blick auf die Natur oder den See. Gäste genießen Komfort, maritimen Stil und eine entspannte Atmosphäre.",
+
+  "room_room_types": "Zimmertypen",
+  "room_choose": "Wählen Sie Ihr Zimmer",
+
+  "room_classic": "Classic",
+  "room_superior": "Superior",
+
+  "room_room1_title": "Classic Zimmer",
+  "room_room1_desc": "28 m² Zimmer mit Balkon und ruhiger Umgebung.",
+
+  "room_room2_title": "Classic Zimmer (Seeblick)",
+  "room_room2_desc": "28 m² Zimmer mit Balkon und seitlichem Seeblick.",
+
+  "room_room3_title": "Superior Zimmer",
+  "room_room3_desc": "Zimmer mit direktem Seeblick und modernem Design.",
+
+  "room_book_room": "Zimmer buchen",
+
+  "room_dog_title": "Urlaub mit Ihrem Hund",
+  "room_dog_desc1": "Das Sunday Resort Hafendorf Rheinsberg heißt Gäste mit Hunden herzlich willkommen. Genießen Sie einen besonderen Urlaub mit Ihrem vierbeinigen Begleiter in der wunderschönen Natur.",
+  "room_dog_desc2": "Hunde sind in allen Zimmerkategorien erlaubt. Bitte informieren Sie uns bei der Buchung. Gebühr: 15 € pro Tier und Nacht.",
+
+  "room_cta_title": "Jetzt buchen",
+  "room_cta_desc": "Genießen Sie einen erholsamen Aufenthalt im Hafendorf Rheinsberg",
+   "suites_meta_title": "Suiten | Sunday Resort Hafendorf Rheinsberg",
+  "suites_meta_description": "Entdecken Sie luxuriöse Suiten im Sunday Resort Hafendorf Rheinsberg mit Blick auf die Marina und höchstem Komfort.",
+
+  "suites_hero_title": "Suiten",
+  "suites_hero_text": "Luxus und Komfort am Rheinsberger See",
+  "suites_hero_btn": "Suiten entdecken",
+
+  "suites_overview_label": "Suiten",
+  "suites_overview_title": "Entdecken Sie unsere Suiten",
+  "suites_overview_text": "Von eleganten Junior Suiten bis hin zu exklusiven Penthouse Suiten bietet jede Unterkunft Komfort, Raum und einen herrlichen Blick auf die Marina und den Rheinsberger See.",
+
+  "suites_types_label": "Suitentypen",
+  "suites_types_title": "Wählen Sie Ihre Suite",
+
+  "suites_filter_all": "Alle",
+  "suites_filter_junior": "Junior",
+  "suites_filter_island": "Island",
+  "suites_filter_luxury": "Luxus",
+
+  "suites_room1_title": "Junior Suite",
+  "suites_room1_desc": "42 m² Suite mit Balkon, Wohnbereich und Schlafsofa.",
+
+  "suites_room2_title": "Island Suite mit 1 Schlafzimmer",
+  "suites_room2_desc": "Geräumige Suite mit Terrasse und privatem Steg.",
+
+  "suites_room3_title": "Island Suite mit 2 Schlafzimmern",
+  "suites_room3_desc": "Ideal für Familien mit zwei Schlafzimmern und Terrasse.",
+
+  "suites_room4_title": "Penthouse Suite",
+  "suites_room4_desc": "102 m² Luxussuite mit Kamin und Blick auf den Hafen.",
+
+  "suites_room5_title": "Hafendorf Suite",
+  "suites_room5_desc": "Exklusive Suite mit privater Sauna und Seeblick.",
+
+  "suites_dog_title": "Urlaub mit Ihrem Hund",
+  "suites_dog_desc1": "Das Sunday Resort Hafendorf Rheinsberg heißt Gäste mit Hunden herzlich willkommen. Genießen Sie einen besonderen Urlaub mit Ihrem vierbeinigen Begleiter in der wunderschönen Natur.",
+  "suites_dog_desc2": "Hunde sind in allen Zimmerkategorien erlaubt. Bitte informieren Sie uns bei der Buchung. Gebühr: 15 € pro Tier und Nacht.",
+
+  "suites_cta_title": "Suite buchen",
+  "suites_cta_text": "Genießen Sie Luxus und Entspannung im Hafendorf Rheinsberg",
+  "pool_meta_title": "Poolbereich | Sunday Resort Hafendorf Rheinsberg",
+  "pool_meta_description": "Genießen Sie den Poolbereich im Sunday Resort Hafendorf Rheinsberg mit Panoramablick auf den Hafen.",
+
+  "pool_hero_title": "Poolbereich",
+  "pool_hero_text": "Schwimmen mit Panoramablick auf den Hafen",
+  "pool_hero_btn": "Pool entdecken",
+
+  "pool_overview_label": "Poolbereich",
+  "pool_overview_title": "Schwimmen & Entspannung",
+  "pool_overview_text": "Der Pool im Sunday Resort Hafendorf Rheinsberg bietet ein entspannendes Erlebnis mit einzigartigem Panoramablick auf den Hafen, den Leuchtturm und die umliegende Natur.",
+
+  "pool_features_label": "Pool-Highlights",
+  "pool_features_title": "Genießen Sie den Pool",
+
+  "pool_main_title": "Hauptpool",
+  "pool_main_text": "25 x 6 m Pool mit Panoramablick auf das Hafendorf.",
+
+  "pool_view_title": "Hafenblick",
+  "pool_view_text": "Schwimmen Sie mit Blick auf die Marina und den Leuchtturm.",
+
+  "pool_relax_title": "Ruhebereich",
+  "pool_relax_text": "Ruhige Bereiche zum Entspannen und Erholen.",
+
+  "pool_wellness_title": "Wellnesszugang",
+  "pool_wellness_text": "Direkter Zugang zur Sauna und Wellnessbereich.",
+
+  "details_btn": "Details",
+
+  "pool_cta_title": "Entspannen & Auftanken",
+  "pool_cta_text": "Genießen Sie Schwimmen und Entspannung im Hafendorf Rheinsberg",
+  "pool_cta_btn": "Jetzt buchen",
+"spa_meta_title": "Wellness & Spa | Sunday Resort Hafendorf Rheinsberg",
+  "spa_meta_description": "Entspannen Sie im Spa- und Wellnessbereich des Sunday Resort Hafendorf Rheinsberg.",
+
+  "spa_hero_title": "Wellness & Spa",
+  "spa_hero_text": "Ein Ort zum Wohlfühlen",
+  "spa_hero_btn": "Wellness entdecken",
+
+  "spa_overview_label": "Wellness",
+  "spa_overview_title": "Ein Ort zum Wohlfühlen",
+  "spa_overview_text": "Das Sunday Resort Hafendorf Rheinsberg bietet einen exklusiven Wellnessbereich auf 2.000 m². Gäste können Körper und Geist in einer ruhigen und entspannten Atmosphäre erholen.",
+
+  "spa_facilities_label": "Spa-Einrichtungen",
+  "spa_facilities_title": "Entspannen & Auftanken",
+
+  "spa_treatments_title": "Spa-Anwendungen",
+  "spa_treatments_text": "Massagen, Wellnessbehandlungen und Entspannungstherapien.",
+
+  "spa_sauna_title": "Saunabereich",
+  "spa_sauna_text": "Finnische Sauna, Dampfbad und Ruheraum.",
+
+  "spa_relax_title": "Ruhezonen",
+  "spa_relax_text": "Ruhige Bereiche zum Entspannen und Erholen.",
+
+  "spa_private_title": "Private Spa Suiten",
+  "spa_private_text": "Exklusive Spa-Suiten mit Whirlpool, Sauna und Privatsphäre.",
+
+  "spa_hours_label": "Öffnungszeiten",
+  "spa_hours_title": "Wellness Öffnungszeiten",
+
+  "spa_hours_main": "Sauna (Winter): 10:00 – 21:00 Uhr",
+  "spa_hours_summer": "Sauna (Sommer): 14:00 – 21:00 Uhr",
+  "spa_contact": "Kontakt: +49 33 931 800 872",
+
+  "spa_cta_title": "Entspannen & Auftanken",
+  "spa_cta_text": "Genießen Sie Wellness und Entspannung im Hafendorf Rheinsberg",
+  "spa_cta_btn": "Jetzt buchen",
+    "ip_meta_title": "Indoor Spielplatz | Sunday Resort Hafendorf Rheinsberg",
+  "ip_meta_description": "Indoor-Spielplatz und Familienerlebnisse im Sunday Resort Hafendorf Rheinsberg.",
+
+  "ip_hero_title": "Indoor Spielplatz",
+  "ip_hero_text": "Spaß, Abenteuer und unvergessliche Familienmomente",
+  "ip_hero_btn": "Spielplatz entdecken",
+
+  "ip_overview_title": "Familienerlebnisse im Hafendorf Rheinsberg",
+  "ip_overview_text": "Im Sunday Resort Hafendorf Rheinsberg können Familien eine Vielzahl von Aktivitäten in einer entspannten und sicheren Umgebung genießen. Das Resort ist von Natur umgeben und bietet den perfekten Ort für Kinder, um zu spielen, zu entdecken und unvergessliche Erlebnisse zu sammeln.",
+
+  "ip_features_title": "Familienaktivitäten entdecken",
+
+  "ip_boat_title": "Bootsabenteuer",
+  "ip_boat_text": "Entdecken Sie die wunderschöne Seenlandschaft mit dem Boot und genießen Sie ein einzigartiges maritimes Erlebnis mit Ihrer Familie.",
+
+  "ip_cycling_title": "Radtouren",
+  "ip_cycling_text": "Erkunden Sie die Mecklenburgische Seenplatte mit dem Fahrrad und genießen Sie gemeinsam die Natur auf malerischen Routen.",
+
+  "ip_nature_title": "Naturerkundung",
+  "ip_nature_text": "Spazieren Sie durch Wälder, Seen und Wiesen und entdecken Sie die natürliche Schönheit rund um Rheinsberg.",
+
+  "ip_family_title": "Familienzeit",
+  "ip_family_text": "Verbringen Sie wertvolle Zeit gemeinsam in einer ruhigen Umgebung, die für Entspannung und Spaß gestaltet ist.",
+
+  "ip_cta_title": "Planen Sie Ihren Familienurlaub",
+  "ip_cta_text": "Erleben Sie Entspannung, Natur und unvergessliche Familienmomente am Rheinsberger See.",
+  "ip_cta_btn": "Jetzt buchen",
+  "marina_meta_title": "Marina | Sunday Resort Hafendorf Rheinsberg",
+  "marina_meta_description": "Entdecken Sie die Marina im Sunday Resort Hafendorf Rheinsberg mit Bootsverleih und Erlebnissen am Wasser.",
+
+  "marina_hero_title": "Marina",
+  "marina_hero_text": "Erleben Sie das Leben am Wasser",
+  "marina_hero_btn": "Marina entdecken",
+
+  "marina_overview_label": "Marina",
+  "marina_overview_title": "Los geht's!",
+  "marina_overview_text": "Entdecken Sie das Herz des Sunday Resort Hafendorf Rheinsberg: die Marina am Rheinsberger See. Hier dreht sich alles um maritimes Flair und das Leben am Wasser.",
+
+  "marina_activities_label": "Marina Highlights",
+  "marina_activities_title": "Leben am Wasser",
+
+  "marina_card1_title": "Hafendorf",
+  "marina_card1_text": "Wunderschöne Marina umgeben von malerischen Brücken und Blick auf das Wasser.",
+
+  "marina_card2_title": "Bootsverleih",
+  "marina_card2_text": "Erkunden Sie die Seenlandschaft mit einem Boot direkt vom Resort aus.",
+
+  "marina_card3_title": "Liegeplätze",
+  "marina_card3_text": "Gäste können ihre eigenen Boote mitbringen und die Marina nutzen.",
+
+  "marina_card4_title": "See-Erlebnis",
+  "marina_card4_text": "Genießen Sie entspannte Tage am Wasser mit herrlichem Blick auf den See.",
+
+  "marina_outdoors_label": "Aktivitäten",
+
+  "marina_boating_title": "Bootfahren",
+  "marina_boating_text": "Entdecken Sie den Rheinsberger See und die umliegenden Wasserwege mit dem Boot.",
+
+  "marina_relax_title": "Entspannung am Wasser",
+  "marina_relax_text": "Genießen Sie ruhige Momente am Hafen in maritimer Atmosphäre.",
+
+  "marina_cta_title": "Entdecken Sie die Marina",
+  "marina_cta_text": "Erleben Sie unvergessliche Momente am Wasser im Hafendorf Rheinsberg",
+  "marina_cta_btn": "Jetzt buchen",
+   "events_meta_title": "Tagungen & Events | Sunday Resort Hafendorf Rheinsberg",
+  "events_meta_description": "Veranstalten Sie Meetings, Konferenzen und Events im Sunday Resort Hafendorf Rheinsberg.",
+
+  "events_hero_title": "Tagungen & Veranstaltungen",
+  "events_hero_text": "Ein einzigartiger Veranstaltungsort für Ihr Event",
+  "events_hero_btn": "Räume entdecken",
+
+  "events_overview_title": "Ein einzigartiger Ort für Ihre Veranstaltung",
+  "events_overview_text1": "Das Sunday Resort Hafendorf Rheinsberg bietet rund 3.000 m² multifunktionale Veranstaltungsfläche mit 11 flexibel nutzbaren Räumen.",
+  "events_overview_text2": "Ob Seminare, Konferenzen oder private Feiern – moderne Ausstattung und flexible Raumkonzepte bieten den perfekten Rahmen für jede Veranstaltung.",
+
+  "events_spaces_label": "Veranstaltungsräume",
+
+  "events_space1_title": "Konferenzräume",
+  "events_space1_text": "Flexible Tagungsräume für Seminare und Konferenzen.",
+
+  "events_space2_title": "Private Feiern",
+  "events_space2_text": "Perfekte Locations für Hochzeiten, Feiern und besondere Anlässe.",
+
+  "events_space3_title": "Große Veranstaltungsflächen",
+  "events_space3_text": "Großzügige Räume für große Events und Konferenzen.",
+
+  "events_facilities_label": "Ausstattung",
+
+  "events_amenity1_title": "Moderne Technik",
+  "events_amenity1_text": "Voll ausgestattete Räume mit moderner Konferenztechnik.",
+
+  "events_amenity2_title": "Unterkunft",
+  "events_amenity2_text": "Übernachtung in komfortablen Zimmern und Suiten.",
+
+  "events_amenity3_title": "Catering",
+  "events_amenity3_text": "Individuelle Cateringangebote durch unsere Restaurants.",
+
+  "events_amenity4_title": "Wellness Zugang",
+  "events_amenity4_text": "Entspannung im Spa- und Wellnessbereich nach Veranstaltungen.",
+
+  "events_packages_label": "Eventarten",
+
+  "events_package1_title": "Hochzeiten",
+  "events_package1_item1": "Individuelle Planung",
+  "events_package1_item2": "Dekoration & Catering",
+  "events_package1_item3": "Unvergessliche Feier",
+
+  "events_package2_title": "Tagungen",
+  "events_package2_item1": "Moderne Konferenzräume",
+  "events_package2_item2": "Professionelle Betreuung",
+  "events_package2_item3": "Flexible Raumgestaltung",
+
+  "events_cta_title": "Planen Sie Ihr Event",
+  "events_cta_text": "Unser Team unterstützt Sie bei der Organisation Ihrer Veranstaltung",
+  "events_cta_btn": "Kontakt aufnehmen",
+"ta_attr1_modal": "Eine wunderschöne Seenlandschaft zwischen Berlin und der Mecklenburgischen Seenplatte, ideal zum Bootfahren, Kanufahren und Naturerkunden.",
+"ta_attr2_modal": "Über 350 km ausgeschilderte Strecken zum Laufen, Wandern und Nordic Walking in einer beeindruckenden Naturlandschaft.",
+"ta_attr3_modal": "Entdecken Sie das Land der tausend Seen mit dem Fahrrad auf malerischen Routen durch Wälder, Dörfer und entlang von Gewässern",
+"ta_attr4_modal": "Ein weitläufiges Netz an Wanderwegen bietet ganzjährig Naturerlebnisse mit Seen, Wäldern und Tierwelt.",
+"ta_attr5_modal": "Ein historisches Kulturhighlight, in dem einst Friedrich der Große lebte, umgeben von wunderschönen Gärten und Seen.",
+"room_room1_modal": "28 m² Zimmer mit Balkon und ruhiger Umgebung.",
+"room_room2_modal": "28 m² Zimmer mit Balkon und seitlichem Seeblick.",
+"room_room3_modal": "Zimmer mit direktem Seeblick und modernem Design.",
+"suites_room1_modal": "42 m² Suite mit Balkon, Wohnbereich und Schlafsofa.",
+"suites_room2_modal": "Geräumige Suite mit Terrasse und privatem Steg.",
+"suites_room3_modal": "Ideal für Familien mit zwei Schlafzimmern und Terrasse.",
+"suites_room4_modal": "102 m² Luxussuite mit Kamin und Blick auf den Hafen.",
+"suites_room5_modal": "Exklusive Suite mit privater Sauna und Seeblick.",
+"pool_main_modal": "25 x 6 m Pool mit Panoramablick auf das Hafendorf.",
+"pool_view_modal": "Schwimmen Sie mit Blick auf die Marina und den Leuchtturm.",
+"pool_relax_modal": "Ruhige Bereiche zum Entspannen und Erholen.",
+"pool_wellness_modal": "Direkter Zugang zum Sauna- und Wellnessbereich."
+
+
+}

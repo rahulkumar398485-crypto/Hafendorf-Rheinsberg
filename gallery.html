@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Gallery | Sunday Resort Hafendorf Rheinsberg</title>
+    <title data-key="gallery_page_title">
+      Gallery | Sunday Resort Hafendorf Rheinsberg
+    </title>
 
     <meta
       name="description"
+      data-key="gallery_meta_description"
       content="Discover Sunday Resort Hafendorf Rheinsberg through our photo gallery."
     />
 
@@ -31,6 +34,7 @@
             <img
               src="images/output-onlinepngtools.png"
               alt="Rheinsberg Resort"
+              data-key-alt="logo_alt"
             />
           </a>
         </div>
@@ -39,42 +43,65 @@
           <nav class="main-navigation">
             <ul class="nav-menu">
               <li class="has-dropdown">
-                <a href="#">About</a>
+                <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">Our Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="gastronomy.html">Gastronomy</a></li>
-                  <li><a href="tourist-attractions.html">Attractions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Accommodation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="suites.html">Suites</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Wellness</a>
-                <ul class="dropdown-menu">
-                  <li><a href="pool.html">Pool Area</a></li>
-                  <li><a href="spa.html">Spa</a></li>
                   <li>
-                    <a href="indoor-playground.html">Indoor Playground</a>
+                    <a href="about.html" data-key="nav_story">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" data-key="nav_contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="gastronomy.html" data-key="nav_gastronomy"
+                      >Gastronomy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="tourist-attractions.html"
+                      data-key="nav_attractions"
+                      >Attractions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="gallery.html" data-key="nav_gallery">Gallery</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="marina.html">Marina</a></li>
-              <li><a href="event.html">Meetings & Events</a></li>
+
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_accommodation">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html" data-key="nav_rooms">Rooms</a></li>
+                  <li>
+                    <a href="suites.html" data-key="nav_suites">Suites</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_wellness">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html" data-key="nav_pool">Pool Area</a></li>
+                  <li><a href="spa.html" data-key="nav_spa">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html" data-key="nav_playground"
+                      >Indoor Playground</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="marina.html" data-key="nav_marina">Marina</a></li>
+              <li>
+                <a href="event.html" data-key="nav_events">Meetings & Events</a>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="nav-book">
-          <a href="#" class="btn-book">Book Now</a>
+          <a href="#" class="btn-book" data-key="book_now">Book Now</a>
+          <button id="langToggle" class="lang-btn">DE</button>
         </div>
 
         <div class="mobile-menu-toggle">
@@ -88,29 +115,63 @@
       <img
         src="images/3_Public areas/Lobby Terrasse Day_0008.JPG"
         class="hero-image"
+        data-key-alt="alt_resort"
       />
 
       <div class="hero-overlay"></div>
 
       <div class="hero-content">
-        <h1>Gallery</h1>
-        <p>Discover the beauty of Hafendorf Rheinsberg</p>
-        <a href="#gallery" class="btn-primary">Explore Gallery</a>
+        <h1 data-key="gallery_title">Gallery</h1>
+        <p data-key="gallery_desc">
+          Discover the beauty of Hafendorf Rheinsberg
+        </p>
+        <a href="#gallery" class="btn-primary" data-key="gallery_cta">
+          Explore Gallery
+        </a>
       </div>
     </section>
 
     <!-- GALLERY -->
     <section class="gallery-section" id="gallery">
-      <div class="section-label">Moments at the Resort</div>
-      <h2>Explore Hafendorf Rheinsberg</h2>
+      <div class="section-label" data-key="gallery_label">
+        Moments at the Resort
+      </div>
+
+      <h2 data-key="gallery_heading">Explore Hafendorf Rheinsberg</h2>
 
       <!-- FILTER -->
       <div class="gallery-filter">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="hotel">Hotel</button>
-        <button class="filter-btn" data-filter="marina">Marina</button>
-        <button class="filter-btn" data-filter="wellness">Wellness</button>
-        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button
+          class="filter-btn active"
+          data-filter="all"
+          data-key="gallery_all"
+        >
+          All
+        </button>
+        <button class="filter-btn" data-filter="hotel" data-key="gallery_hotel">
+          Hotel
+        </button>
+        <button
+          class="filter-btn"
+          data-filter="marina"
+          data-key="gallery_marina"
+        >
+          Marina
+        </button>
+        <button
+          class="filter-btn"
+          data-filter="wellness"
+          data-key="gallery_wellness"
+        >
+          Wellness
+        </button>
+        <button
+          class="filter-btn"
+          data-filter="nature"
+          data-key="gallery_nature"
+        >
+          Nature
+        </button>
       </div>
 
       <!-- IMAGES -->
@@ -119,6 +180,7 @@
           <img
             src="images/1_Accomodation/Hafendorf Suite/4_IMG_1031.jpg"
             data-caption="Comfortable rooms & suites"
+            data-key-caption="gallery_img1"
           />
         </div>
 
@@ -126,6 +188,7 @@
           <img
             src="images/3_Public areas/Lobby_0029.JPG"
             data-caption="Elegant suite interiors"
+            data-key-caption="gallery_img2"
           />
         </div>
 
@@ -133,6 +196,7 @@
           <img
             src="images/3_Public areas/Terrasse_0024.JPG"
             data-caption="Marina on Lake Rheinsberg"
+            data-key-caption="gallery_img3"
           />
         </div>
 
@@ -140,6 +204,7 @@
           <img
             src="images/5_Spa & Pool & Fitness/1_Pool_0006.JPG"
             data-caption="Relaxing spa & wellness area"
+            data-key-caption="gallery_img4"
           />
         </div>
 
@@ -147,6 +212,7 @@
           <img
             src="images/6_Kids/Spielplatz Hafendorf Rheinsberg.JPG"
             data-caption="Lake Rheinsberg landscape"
+            data-key-caption="gallery_img5"
           />
         </div>
 
@@ -154,6 +220,7 @@
           <img
             src="images/2_Facade_Outdoor/Screenshot 2024-04-09 at 17.43.09.jpg"
             data-caption="Rheinsberg Castle"
+            data-key-caption="gallery_img6"
           />
         </div>
       </div>
@@ -175,14 +242,16 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-container">
-        <h2>Experience the Resort</h2>
+        <h2 data-key="gallery_cta_title">Experience the Resort</h2>
 
-        <p>
+        <p data-key="gallery_cta_desc">
           Plan your stay at Sunday Resort Hafendorf Rheinsberg and enjoy
           unforgettable moments.
         </p>
 
-        <a href="contact.html" class="btn-primary">Book Your Stay</a>
+        <a href="contact.html" class="btn-primary" data-key="hero_cta">
+          Book Your Stay
+        </a>
       </div>
     </section>
 

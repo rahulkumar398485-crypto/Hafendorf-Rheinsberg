@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Explore Rheinsberg | Sunday Resort Hafendorf Rheinsberg</title>
+    <title data-key="ta_page_title">Explore Rheinsberg | Sunday Resort Hafendorf Rheinsberg</title>
 
     <meta
       name="description"
@@ -24,13 +24,14 @@
     <div class="preloader"><div class="loader"></div></div>
 
     <!-- HEADER (UNCHANGED) -->
-    <header class="site-header">
+   <header class="site-header">
       <div class="header-container">
         <div class="logo">
           <a href="index.html">
             <img
               src="images/output-onlinepngtools.png"
               alt="Rheinsberg Resort"
+              data-key-alt="logo_alt"
             />
           </a>
         </div>
@@ -39,42 +40,65 @@
           <nav class="main-navigation">
             <ul class="nav-menu">
               <li class="has-dropdown">
-                <a href="#">About</a>
+                <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">Our Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="gastronomy.html">Gastronomy</a></li>
-                  <li><a href="tourist-attractions.html">Attractions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Accommodation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="suites.html">Suites</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="contact.html">Wellness</a>
-                <ul class="dropdown-menu">
-                  <li><a href="pool.html">Pool Area</a></li>
-                  <li><a href="spa.html">Spa</a></li>
                   <li>
-                    <a href="indoor-playground.html">Indoor Playground</a>
+                    <a href="about.html" data-key="nav_story">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" data-key="nav_contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="gastronomy.html" data-key="nav_gastronomy"
+                      >Gastronomy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="tourist-attractions.html"
+                      data-key="nav_attractions"
+                      >Attractions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="gallery.html" data-key="nav_gallery">Gallery</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="marina.html">Marina</a></li>
-              <li><a href="event.html">Meetings & Events</a></li>
+
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_accommodation">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html" data-key="nav_rooms">Rooms</a></li>
+                  <li>
+                    <a href="suites.html" data-key="nav_suites">Suites</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_wellness">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html" data-key="nav_pool">Pool Area</a></li>
+                  <li><a href="spa.html" data-key="nav_spa">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html" data-key="nav_playground"
+                      >Indoor Playground</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="marina.html" data-key="nav_marina">Marina</a></li>
+              <li>
+                <a href="event.html" data-key="nav_events">Meetings & Events</a>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="nav-book">
-          <a href="#" class="btn-book">Book Now</a>
+          <a href="#" class="btn-book" data-key="book_now">Book Now</a>
+          <button id="langToggle" class="lang-btn">DE</button>
         </div>
 
         <div class="mobile-menu-toggle">
@@ -84,31 +108,28 @@
     </header>
 
     <!-- HERO -->
-    <section
-      class="hero-section"
-      style="
-        background-image: url(&quot;images/Rheinsberg\ Castle\ Main.jpg&quot;);
-      "
-    >
+    <section class="hero-section" style="background-image: url('images/Rheinsberg Castle Main.jpg');">
       <div class="hero-overlay"></div>
 
       <div class="hero-content">
-        <h1>Explore Rheinsberg</h1>
-        <p>Discover nature, lakes and cultural highlights</p>
-        <a href="#attractions" class="btn-primary">Discover Attractions</a>
+        <h1 data-key="ta_title">Explore Rheinsberg</h1>
+        <p data-key="ta_desc">Discover nature, lakes and cultural highlights</p>
+        <a href="#attractions" class="btn-primary" data-key="ta_cta">
+          Discover Attractions
+        </a>
       </div>
     </section>
 
     <!-- OVERVIEW -->
     <section class="overview-section">
-      <div class="section-label">Lake District Adventures</div>
+      <div class="section-label" data-key="ta_label">Lake District Adventures</div>
 
       <div class="overview-container">
         <div class="overview-divider"></div>
 
-        <h2>Experience the Beauty of Rheinsberg</h2>
+        <h2 data-key="ta_overview_title">Experience the Beauty of Rheinsberg</h2>
 
-        <p data-animate>
+        <p data-key="ta_overview_desc">
           The Sunday Resort Hafendorf Rheinsberg is located in the beautiful
           Mecklenburg Lake District. Surrounded by lakes, forests and historic
           towns, the region offers endless opportunities for relaxation,
@@ -121,66 +142,55 @@
 
     <!-- ATTRACTIONS -->
     <section class="attractions-section" id="attractions">
-      <div class="section-label">Top Attractions</div>
-      <h2>Discover the Region</h2>
+      <div class="section-label" data-key="ta_top_label">Top Attractions</div>
+      <h2 data-key="ta_top_title">Discover the Region</h2>
 
       <div class="attractions-container">
-        <!-- CARD 1 -->
-        <div class="attraction-card" data-animate>
+        <div class="attraction-card">
           <img src="images/Ruppiner Seenland.jpeg" />
-          <h3>Ruppiner Seenland</h3>
-          <p>
-            A beautiful lake region connecting Berlin with the Mecklenburg Lake
-            District, perfect for boating, canoeing and exploring nature.
+          <h3 data-key="ta_attr1_title">Ruppiner Seenland</h3>
+          <p data-key="ta_attr1_desc">
+            A beautiful lake region connecting Berlin with the Mecklenburg Lake District.
           </p>
-          <button class="details-btn" data-attraction="lake">Details</button>
+          <button class="details-btn" data-attraction="lake" data-key="ta_details">Details</button>
         </div>
 
-        <!-- CARD 2 -->
-        <div class="attraction-card" data-animate>
+        <div class="attraction-card">
           <img src="images/laufpark-stechlin park.jpg" />
-          <h3>Stechlin Running Park</h3>
-          <p>
-            Over 350 km of marked trails for running, hiking and Nordic walking
-            in a stunning natural environment.
+          <h3 data-key="ta_attr2_title">Stechlin Running Park</h3>
+          <p data-key="ta_attr2_desc">
+            Over 350 km of marked trails for running, hiking and Nordic walking.
           </p>
-          <button class="details-btn" data-attraction="park">Details</button>
+          <button class="details-btn" data-attraction="park" data-key="ta_details">Details</button>
         </div>
 
-        <!-- CARD 3 -->
-        <div class="attraction-card" data-animate>
+        <div class="attraction-card">
           <img src="images/Cycling Tours.jpg" />
-          <h3>Cycling Tours</h3>
-          <p>
-            Discover the “land of a thousand lakes” by bike with scenic routes
-            through forests, villages and along waterways.
+          <h3 data-key="ta_attr3_title">Cycling Tours</h3>
+          <p data-key="ta_attr3_desc">
+            Discover the land of a thousand lakes by bike.
           </p>
-          <button class="details-btn" data-attraction="cycling">Details</button>
+          <button class="details-btn" data-attraction="cycling" data-key="ta_details">Details</button>
         </div>
 
-        <!-- CARD 4 -->
-        <div class="attraction-card" data-animate>
+        <div class="attraction-card">
           <img src="images/Hiking Trails.jpg" />
-          <h3>Hiking Trails</h3>
-          <p>
-            A wide network of hiking trails offers year-round experiences in
-            nature with lakes, forests and wildlife.
+          <h3 data-key="ta_attr4_title">Hiking Trails</h3>
+          <p data-key="ta_attr4_desc">
+            A wide network of hiking trails with lakes and forests.
           </p>
-          <button class="details-btn" data-attraction="hiking">Details</button>
+          <button class="details-btn" data-attraction="hiking" data-key="ta_details">Details</button>
         </div>
 
-        <!-- CARD 5 -->
-        <div class="attraction-card" data-animate>
+        <div class="attraction-card">
           <img src="images/Rheinsberg Castle.jpg" />
-          <h3>Rheinsberg Castle</h3>
-          <p>
-            A historic cultural highlight where Frederick the Great once lived,
-            surrounded by beautiful gardens and lakes.
+          <h3 data-key="ta_attr5_title">Rheinsberg Castle</h3>
+          <p data-key="ta_attr5_desc">
+            A historic cultural highlight surrounded by gardens and lakes.
           </p>
-          <button class="details-btn" data-attraction="castle">Details</button>
+          <button class="details-btn" data-attraction="castle" data-key="ta_details">Details</button>
         </div>
       </div>
-
       <!-- MODAL -->
       <div class="modal" id="attractionModal">
         <div class="modal-content">
@@ -194,14 +204,15 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-container">
-        <h2>Plan Your Lake Adventure</h2>
+        <h2 data-key="ta_cta_title">Plan Your Lake Adventure</h2>
 
-        <p>
-          Discover the beauty of the Mecklenburg Lake District while staying at
-          Sunday Resort Hafendorf Rheinsberg.
+        <p data-key="ta_cta_desc">
+          Discover the beauty of the Mecklenburg Lake District while staying at Sunday Resort Hafendorf Rheinsberg.
         </p>
 
-        <a href="contact.html" class="btn-primary">Book Your Stay</a>
+        <a href="contact.html" class="btn-primary" data-key="hero_cta">
+          Book Your Stay
+        </a>
       </div>
     </section>
 

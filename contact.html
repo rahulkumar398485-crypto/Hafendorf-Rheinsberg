@@ -37,6 +37,7 @@
             <img
               src="images/output-onlinepngtools.png"
               alt="Rheinsberg Resort"
+              data-key-alt="logo_alt"
             />
           </a>
         </div>
@@ -45,42 +46,65 @@
           <nav class="main-navigation">
             <ul class="nav-menu">
               <li class="has-dropdown">
-                <a href="#">About</a>
+                <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">Our Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="gastronomy.html">Gastronomy</a></li>
-                  <li><a href="tourist-attractions.html">Attractions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Accommodation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="suites.html">Suites</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Wellness</a>
-                <ul class="dropdown-menu">
-                  <li><a href="pool.html">Pool Area</a></li>
-                  <li><a href="spa.html">Spa</a></li>
                   <li>
-                    <a href="indoor-playground.html">Indoor Playground</a>
+                    <a href="about.html" data-key="nav_story">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" data-key="nav_contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="gastronomy.html" data-key="nav_gastronomy"
+                      >Gastronomy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="tourist-attractions.html"
+                      data-key="nav_attractions"
+                      >Attractions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="gallery.html" data-key="nav_gallery">Gallery</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="#">Marina</a></li>
-              <li><a href="event.html">Meetings & Events</a></li>
+
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_accommodation">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html" data-key="nav_rooms">Rooms</a></li>
+                  <li>
+                    <a href="suites.html" data-key="nav_suites">Suites</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_wellness">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html" data-key="nav_pool">Pool Area</a></li>
+                  <li><a href="spa.html" data-key="nav_spa">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html" data-key="nav_playground"
+                      >Indoor Playground</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="marina.html" data-key="nav_marina">Marina</a></li>
+              <li>
+                <a href="event.html" data-key="nav_events">Meetings & Events</a>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="nav-book">
-          <a href="#" class="btn-book">Book Now</a>
+          <a href="#" class="btn-book" data-key="book_now">Book Now</a>
+          <button id="langToggle" class="lang-btn">DE</button>
         </div>
 
         <div class="mobile-menu-toggle">
@@ -92,18 +116,23 @@
     <!-- HERO -->
     <section class="hero-section parallax">
       <div class="hero-content">
-        <h1>Contact Us</h1>
-        <p>Plan your stay at Sunday Resort Hafendorf Rheinsberg</p>
-        <a href="#contact-form" class="btn-primary">Get in Touch</a>
+        <h1 data-key="contact_title">Contact</h1>
+        <p data-key="contact_desc">
+          Plan your stay at Sunday Resort Hafendorf Rheinsberg
+        </p>
+        <a href="#contact-form" class="btn-primary" data-key="contact_cta">
+          Get in Touch
+        </a>
       </div>
     </section>
 
     <!-- CONTACT FORM -->
     <section class="contact-form-section" id="contact-form">
       <div class="form-container">
-        <div class="section-label">Get in Touch</div>
+        <div class="section-label" data-key="contact_form_label">
+          Get in Touch
+        </div>
 
-        <!-- SAME STRUCTURE (Cognito form) -->
         <script
           src="https://www.cognitoforms.com/f/seamless.js"
           data-key="djx-XfiM1EOVrVlw1705oA"
@@ -114,65 +143,90 @@
 
     <!-- CONTACT DETAILS -->
     <section class="contact-details-section">
-      <div class="section-label">Contact Information</div>
-      <h2>Reach Us</h2>
+      <div class="section-label" data-key="contact_info_label">
+        Contact Information
+      </div>
+
+      <h2 data-key="contact_reach">Reach Us</h2>
 
       <div class="details-container">
         <div class="details-card">
-          <h3>Sunday Resort Hafendorf Rheinsberg</h3>
+          <h3 data-key="contact_hotel_name">
+            Sunday Resort Hafendorf Rheinsberg
+          </h3>
 
           <address>
             Sunday Resort Hafendorf Rheinsberg<br />
             Hafendorfstr. 1<br />
-            16831 Rheinsberg, Germany<br /><br />
+            16831 Rheinsberg, Germany<br />
+
             <a href="tel:+49339318000">+49 33 931 8000</a><br />
-            <a href="mailto:info@sundayresort.de"
-              >reception.rheinsberg@hotelssunday.com</a
-            ><br/>
-            <a href="mailto:info@sundayresort.de"
-              >reservations.rheinsberg@hotelssunday.com</a
-            >
+
+            <a href="mailto:reception.rheinsberg@hotelssunday.com">
+              reception.rheinsberg@hotelssunday.com </a
+            ><br />
+
+            <a href="mailto:reservations.rheinsberg@hotelssunday.com">
+              reservations.rheinsberg@hotelssunday.com
+            </a>
           </address>
         </div>
 
         <div class="details-image">
-          <img src="images/Main.JPG" alt="Rheinsberg Resort" />
+          <img
+            src="images/2_Facade_Outdoor/image003.jpg"
+            alt="Rheinsberg Resort"
+            data-key-alt="logo_alt"
+          />
         </div>
       </div>
     </section>
 
     <!-- GETTING HERE -->
     <section class="getting-here-section">
-      <div class="section-label">Getting Here</div>
-      <h2>Travel to Lake Rheinsberg</h2>
+      <div class="section-label" data-key="contact_getting_here">
+        Getting Here
+      </div>
+
+      <h2 data-key="contact_travel">
+        Travel to Sunday Resort Hafendorf Rheinsberg
+      </h2>
 
       <div class="collapsible-container">
         <div class="collapsible-item">
-          <button class="collapsible-toggle">By Train</button>
+          <button class="collapsible-toggle" data-key="contact_train">
+            By Train
+          </button>
+
           <div class="collapsible-content">
-            <p>
-              Travel via Berlin to Rheinsberg station. From there, the resort is
-              just a short taxi ride away.
+            <p data-key="contact_train_desc">
+              Nearest train station: Rheinsberg – about 10 minutes from the
+              resort.
             </p>
           </div>
         </div>
 
         <div class="collapsible-item">
-          <button class="collapsible-toggle">By Car</button>
+          <button class="collapsible-toggle" data-key="contact_car">
+            By Car
+          </button>
+
           <div class="collapsible-content">
-            <p>
-              Easily accessible from Berlin (approx. 1.5 hours). Follow
-              directions towards Rheinsberg in Brandenburg.
+            <p data-key="contact_car_desc">
+              Drive via Berlin and follow signs towards Rheinsberg in the
+              Mecklenburg Lake District.
             </p>
           </div>
         </div>
 
         <div class="collapsible-item">
-          <button class="collapsible-toggle">By Air</button>
+          <button class="collapsible-toggle" data-key="contact_air">
+            By Air
+          </button>
+
           <div class="collapsible-content">
-            <p>
-              Nearest airport: Berlin Brandenburg Airport (BER), approx. 100 km
-              from the resort.
+            <p data-key="contact_air_desc">
+              Nearest airports: Berlin Brandenburg Airport.
             </p>
           </div>
         </div>
@@ -183,7 +237,6 @@
           src="https://www.google.com/maps?q=Hafendorfstraße%201,%2016831%20Rheinsberg,%20Germany&output=embed"
           loading="lazy"
         >
-          >
         </iframe>
       </div>
     </section>

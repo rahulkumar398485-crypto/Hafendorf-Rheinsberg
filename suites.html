@@ -23,187 +23,198 @@
   <body>
     <div class="preloader"><div class="loader"></div></div>
 
-    <!-- HEADER -->
+ <!-- HEADER (UNCHANGED STRUCTURE) -->
     <header class="site-header">
       <div class="header-container">
         <div class="logo">
-          <a href="index.html"
-            ><img src="images/output-onlinepngtools.png"
-          /></a>
+          <a href="index.html">
+            <img
+              src="images/output-onlinepngtools.png"
+              alt="Rheinsberg Resort"
+              data-key-alt="logo_alt"
+            />
+          </a>
         </div>
 
         <div class="nav-container">
           <nav class="main-navigation">
             <ul class="nav-menu">
               <li class="has-dropdown">
-                <a href="#">About</a>
+                <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">Our Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="gastronomy.html">Gastronomy</a></li>
-                  <li><a href="tourist-attractions.html">Attractions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Accommodation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="suites.html">Suites</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Wellness</a>
-                <ul class="dropdown-menu">
-                  <li><a href="pool.html">Pool Area</a></li>
-                  <li><a href="spa.html">Spa</a></li>
                   <li>
-                    <a href="indoor-playground.html">Indoor Playground</a>
+                    <a href="about.html" data-key="nav_story">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" data-key="nav_contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="gastronomy.html" data-key="nav_gastronomy"
+                      >Gastronomy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="tourist-attractions.html"
+                      data-key="nav_attractions"
+                      >Attractions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="gallery.html" data-key="nav_gallery">Gallery</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="marina.html">Marina</a></li>
-              <li><a href="event.html">Meetings & Events</a></li>
+
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_accommodation">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html" data-key="nav_rooms">Rooms</a></li>
+                  <li>
+                    <a href="suites.html" data-key="nav_suites">Suites</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_wellness">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html" data-key="nav_pool">Pool Area</a></li>
+                  <li><a href="spa.html" data-key="nav_spa">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html" data-key="nav_playground"
+                      >Indoor Playground</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="marina.html" data-key="nav_marina">Marina</a></li>
+              <li>
+                <a href="event.html" data-key="nav_events">Meetings & Events</a>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="nav-book">
-          <a href="#" class="btn-book">Book Now</a>
+          <a href="#" class="btn-book" data-key="book_now">Book Now</a>
+          <button id="langToggle" class="lang-btn">DE</button>
+        </div>
+
+        <div class="mobile-menu-toggle">
+          <span></span><span></span><span></span>
         </div>
       </div>
     </header>
 
-    <!-- HERO -->
-    <section
-      class="hero-section"
-      style="
-        background-image: url(&quot;images/1_Accomodation/Island suit 2 Bedrooms/Island suit 2 Bedrooms+ fireplace/1_622 islandsuite living.JPG&quot;);
-      "
-    >
+     <!-- HERO -->
+    <section class="hero-section"
+      style="background-image: url('images/1_Accomodation/Island suit 2 Bedrooms/Island suit 2 Bedrooms+ fireplace/1_622 islandsuite living.JPG');">
+
       <div class="hero-overlay"></div>
 
       <div class="hero-content">
-        <h1>Suites</h1>
-        <p>Luxury and comfort at Lake Rheinsberg</p>
-        <a href="#suites" class="btn-primary">Explore Suites</a>
+        <h1 data-key="suites_hero_title">Suites</h1>
+        <p data-key="suites_hero_text">Luxury and comfort at Lake Rheinsberg</p>
+        <a href="#suites" class="btn-primary" data-key="suites_hero_btn">
+          Explore Suites
+        </a>
       </div>
     </section>
 
     <!-- OVERVIEW -->
     <section class="overview-section">
-      <div class="section-label">Suites</div>
+      <div class="section-label" data-key="suites_overview_label">Suites</div>
 
       <div class="overview-container">
         <div class="overview-divider"></div>
 
-        <h2>Discover Our Suites</h2>
+        <h2 data-key="suites_overview_title">Discover Our Suites</h2>
 
-        <p data-animate>
+        <p data-animate data-key="suites_overview_text">
           From elegant junior suites to exclusive penthouse suites, each
           accommodation offers comfort, space and stunning views of the marina
           and Lake Rheinsberg.
         </p>
-
         <div class="overview-divider"></div>
       </div>
     </section>
 
     <!-- SUITES -->
     <section class="rooms-section" id="suites">
-      <div class="section-label">Suite Types</div>
-      <h2>Choose Your Suite</h2>
+      <div class="section-label" data-key="suites_types_label">Suite Types</div>
+
+      <h2 data-key="suites_types_title">Choose Your Suite</h2>
 
       <div class="rooms-filter">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="junior">Junior</button>
-        <button class="filter-btn" data-filter="island">Island</button>
-        <button class="filter-btn" data-filter="luxury">Luxury</button>
+        <button class="filter-btn active" data-filter="all" data-key="suites_filter_all">All</button>
+        <button class="filter-btn" data-filter="junior" data-key="suites_filter_junior">Junior</button>
+        <button class="filter-btn" data-filter="island" data-key="suites_filter_island">Island</button>
+        <button class="filter-btn" data-filter="luxury" data-key="suites_filter_luxury">Luxury</button>
       </div>
 
       <div class="rooms-container">
-        <!-- JUNIOR -->
+
         <div class="room-card" data-type="junior">
-          <img
-            src="images/1_Accomodation/Junior Suite/3_Suite living II_0005 klein.jpg"
-          />
-          <h3>Junior Suite</h3>
-          <p>42 m² suite with balcony, living area and sofa bed.</p>
-          <button class="details-btn" data-room="junior">Details</button>
+          <img src="images/1_Accomodation/Junior Suite/3_Suite living II_0005 klein.jpg" />
+          <h3 data-key="suites_room1_title">Junior Suite</h3>
+          <p data-key="suites_room1_desc">42 m² suite with balcony, living area and sofa bed.</p>
+          <button class="details-btn" data-room="junior" data-key="ta_details">Details</button>
         </div>
 
-        <!-- ISLAND 1 -->
         <div class="room-card" data-type="island">
-          <img
-            src="images/1_Accomodation/Island suit 1 Bedroom/Island suite 1 bedroom/2_607 islandsuite 1 bedroom_0017.JPG"
-          />
-          <h3>1-Bedroom Island Suite</h3>
-          <p>Spacious suite with terrace and private dock.</p>
-          <button class="details-btn" data-room="island1">Details</button>
+          <img src="images/1_Accomodation/Island suit 1 Bedroom/Island suite 1 bedroom/2_607 islandsuite 1 bedroom_0017.JPG" />
+          <h3 data-key="suites_room2_title">1-Bedroom Island Suite</h3>
+          <p data-key="suites_room2_desc">Spacious suite with terrace and private dock.</p>
+          <button class="details-btn" data-room="island1" data-key="ta_details">Details</button>
         </div>
 
-        <!-- ISLAND 2 -->
         <div class="room-card" data-type="island">
-          <img
-            src="images/1_Accomodation/Island suit 2 Bedrooms/622 island bedroom bedroom II--_0007 klein.jpg"
-          />
-          <h3>2-Bedroom Island Suite</h3>
-          <p>Perfect for families with two bedrooms and terrace.</p>
-          <button class="details-btn" data-room="island2">Details</button>
+          <img src="images/1_Accomodation/Island suit 2 Bedrooms/622 island bedroom bedroom II--_0007 klein.jpg" />
+          <h3 data-key="suites_room3_title">2-Bedroom Island Suite</h3>
+          <p data-key="suites_room3_desc">Perfect for families with two bedrooms and terrace.</p>
+          <button class="details-btn" data-room="island2" data-key="ta_details">Details</button>
         </div>
 
-        <!-- PENTHOUSE -->
         <div class="room-card" data-type="luxury">
-          <img
-            src="images/1_Accomodation/Penthouse Suite/1_IMG_1126 klein.jpg"
-          />
-          <h3>Penthouse Suite</h3>
-          <p>102 m² luxury suite with fireplace and harbor view.</p>
-          <button class="details-btn" data-room="penthouse">Details</button>
+          <img src="images/1_Accomodation/Penthouse Suite/1_IMG_1126 klein.jpg" />
+          <h3 data-key="suites_room4_title">Penthouse Suite</h3>
+          <p data-key="suites_room4_desc">102 m² luxury suite with fireplace and harbor view.</p>
+          <button class="details-btn" data-room="penthouse" data-key="ta_details">Details</button>
         </div>
 
-        <!-- HAFENDORF -->
         <div class="room-card" data-type="luxury">
-          <img
-            src="images/1_Accomodation/Hafendorf Suite/1_Hafendorf Suiten Wohnen klein.jpg"
-          />
-          <h3>Hafendorf Suite</h3>
-          <p>Exclusive suite with private sauna and lake views.</p>
-          <button class="details-btn" data-room="hafendorf">Details</button>
+          <img src="images/1_Accomodation/Hafendorf Suite/1_Hafendorf Suiten Wohnen klein.jpg" />
+          <h3 data-key="suites_room5_title">Hafendorf Suite</h3>
+          <p data-key="suites_room5_desc">Exclusive suite with private sauna and lake views.</p>
+          <button class="details-btn" data-room="hafendorf" data-key="ta_details">Details</button>
         </div>
+
       </div>
 
       <!-- MODAL -->
       <div class="modal" id="roomModal">
         <div class="modal-content">
           <span class="modal-close">&times;</span>
-
           <h3 id="modalTitle"></h3>
-
           <div id="modalDetails"></div>
-
-          <!-- IMPORTANT: THIS WAS MISSING -->
-          <a href="#" class="btn-primary">Book This Suite</a>
+          <a href="#" class="btn-primary" data-key="book_now">Book Now</a>
         </div>
       </div>
     </section>
-    <!-- KIDS / FAMILY SECTION -->
+
+    <!-- DOG -->
     <section class="treatments-section">
       <div class="treatments-container">
         <div class="treatments-card">
-          <h3>Vacation with Your Dog</h3>
+          <h3 data-key="suites_dog_title">Vacation with Your Dog</h3>
 
-          <p>
-            The Sunday Resort Hafendorf Rheinsberg warmly welcomes guests with
-            dogs. Enjoy a special holiday experience with your four-legged
-            companion in the beautiful natural surroundings.
+          <p data-key="suites_dog_desc1">
+            The Sunday Resort Hafendorf Rheinsberg warmly welcomes guests with dogs. Enjoy a special holiday experience with your four-legged companion in the beautiful natural surroundings.
           </p>
 
-          <p>
-            Dogs are welcome in all room categories. Please inform us during
-            booking. Fee: €15 per pet per night.
+          <p data-key="suites_dog_desc2">
+            Dogs are welcome in all room categories. Please inform us during booking. Fee: €15 per pet per night.
           </p>
         </div>
       </div>
@@ -212,11 +223,16 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-container">
-        <h2>Book Your Suite</h2>
-        <p>Enjoy luxury and relaxation at Hafendorf Rheinsberg</p>
-        <a href="#" class="btn-primary">Book Now</a>
+        <h2 data-key="suites_cta_title">Book Your Suite</h2>
+
+        <p data-key="suites_cta_text">
+          Enjoy luxury and relaxation at Hafendorf Rheinsberg
+        </p>
+
+        <a href="#" class="btn-primary" data-key="book_now">Book Now</a>
       </div>
     </section>
+
     <!-- FOOTER -->
     <footer class="site-footer">
       <div class="footer-columns">

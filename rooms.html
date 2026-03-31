@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Rooms | Sunday Resort Hafendorf Rheinsberg</title>
+    <title data-key="room_page_title">
+      Rooms | Sunday Resort Hafendorf Rheinsberg
+    </title>
 
     <meta
       name="description"
+      data-key="room_meta_description"
       content="Discover rooms at Sunday Resort Hafendorf Rheinsberg with lake views and comfortable design."
     />
 
@@ -22,56 +25,86 @@
 
   <body>
     <div class="preloader"><div class="loader"></div></div>
-
-    <!-- HEADER SAME -->
+    <!-- HEADER (UNCHANGED STRUCTURE) -->
     <header class="site-header">
       <div class="header-container">
         <div class="logo">
-          <a href="index.html"
-            ><img src="images/output-onlinepngtools.png"
-          /></a>
+          <a href="index.html">
+            <img
+              src="images/output-onlinepngtools.png"
+              alt="Rheinsberg Resort"
+              data-key-alt="logo_alt"
+            />
+          </a>
         </div>
 
         <div class="nav-container">
           <nav class="main-navigation">
             <ul class="nav-menu">
               <li class="has-dropdown">
-                <a href="#">About</a>
+                <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">Our Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="gastronomy.html">Gastronomy</a></li>
-                  <li><a href="tourist-attractions.html">Attractions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Accommodation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="suites.html">Suites</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Wellness</a>
-                <ul class="dropdown-menu">
-                  <li><a href="pool.html">Pool Area</a></li>
-                  <li><a href="spa.html">Spa</a></li>
                   <li>
-                    <a href="indoor-playground.html">Indoor Playground</a>
+                    <a href="about.html" data-key="nav_story">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" data-key="nav_contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="gastronomy.html" data-key="nav_gastronomy"
+                      >Gastronomy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="tourist-attractions.html"
+                      data-key="nav_attractions"
+                      >Attractions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="gallery.html" data-key="nav_gallery">Gallery</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="marina.html">Marina</a></li>
-              <li><a href="event.html">Meetings & Events</a></li>
+
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_accommodation">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html" data-key="nav_rooms">Rooms</a></li>
+                  <li>
+                    <a href="suites.html" data-key="nav_suites">Suites</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_wellness">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html" data-key="nav_pool">Pool Area</a></li>
+                  <li><a href="spa.html" data-key="nav_spa">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html" data-key="nav_playground"
+                      >Indoor Playground</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="marina.html" data-key="nav_marina">Marina</a></li>
+              <li>
+                <a href="event.html" data-key="nav_events">Meetings & Events</a>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="nav-book">
-          <a href="#" class="btn-book">Book Now</a>
+          <a href="#" class="btn-book" data-key="book_now">Book Now</a>
+          <button id="langToggle" class="lang-btn">DE</button>
+        </div>
+
+        <div class="mobile-menu-toggle">
+          <span></span><span></span><span></span>
         </div>
       </div>
     </header>
@@ -86,22 +119,26 @@
       <div class="hero-overlay"></div>
 
       <div class="hero-content">
-        <h1>Rooms</h1>
-        <p>Comfort and relaxation at Lake Rheinsberg</p>
-        <a href="#rooms" class="btn-primary">Explore Rooms</a>
+        <h1 data-key="room_title">Rooms</h1>
+        <p data-key="room_desc">Comfort and relaxation at Lake Rheinsberg</p>
+        <a href="#rooms" class="btn-primary" data-key="room_cta">
+          Explore Rooms
+        </a>
       </div>
     </section>
 
     <!-- OVERVIEW -->
     <section class="overview-section">
-      <div class="section-label">Rooms</div>
+      <div class="section-label" data-key="room_label">Rooms</div>
 
       <div class="overview-container">
         <div class="overview-divider"></div>
 
-        <h2>Discover the Comfort of Our Rooms</h2>
+        <h2 data-key="room_overview_title">
+          Discover the Comfort of Our Rooms
+        </h2>
 
-        <p data-animate>
+        <p data-key="room_overview_desc" data-animate>
           The Sunday Resort Hafendorf Rheinsberg offers individually designed
           rooms with balconies and beautiful views of nature or the lake. Guests
           enjoy comfort, maritime style and a relaxing atmosphere.
@@ -113,13 +150,32 @@
 
     <!-- ROOMS -->
     <section class="rooms-section" id="rooms">
-      <div class="section-label">Room Types</div>
-      <h2>Choose Your Room</h2>
+      <div class="section-label" data-key="room_room_types">Room Types</div>
+
+      <h2 data-key="room_choose">Choose Your Room</h2>
 
       <div class="rooms-filter">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="classic">Classic</button>
-        <button class="filter-btn" data-filter="superior">Superior</button>
+        <button
+          class="filter-btn active"
+          data-filter="all"
+          data-key="gallery_all"
+        >
+          All
+        </button>
+        <button
+          class="filter-btn"
+          data-filter="classic"
+          data-key="room_classic"
+        >
+          Classic
+        </button>
+        <button
+          class="filter-btn"
+          data-filter="superior"
+          data-key="room_superior"
+        >
+          Superior
+        </button>
       </div>
 
       <div class="rooms-container">
@@ -128,17 +184,31 @@
           <img
             src="images/1_Accomodation/Classic Room/2_223 Classic Detail_0006 klein.jpg"
           />
-          <h3>Classic Room</h3>
-          <p>28 m² room with balcony and peaceful surroundings.</p>
-          <button class="details-btn" data-room="classic">Details</button>
+
+          <h3 data-key="room_room1_title" >Classic Room</h3>
+
+          <p data-key="room_room1_desc">
+            28 m² room with balcony and peaceful surroundings.
+          </p>
+
+          <button class="details-btn" data-room="standard" data-key="ta_details">
+            Details
+          </button>
         </div>
 
         <!-- CLASSIC LAKE -->
         <div class="room-card" data-type="classic">
           <img src="images/1_Accomodation/Classic Room View/6_IMG_4695.jpg" />
-          <h3>Classic Room (Lake View)</h3>
-          <p>28 m² room with balcony and side lake view.</p>
-          <button class="details-btn" data-room="lake">Details</button>
+
+          <h3 data-key="room_room2_title">Classic Room (Lake View)</h3>
+
+          <p data-key="room_room2_desc">
+            28 m² room with balcony and side lake view.
+          </p>
+
+          <button class="details-btn" data-room="lake" data-key="ta_details">
+            Details
+          </button>
         </div>
 
         <!-- SUPERIOR -->
@@ -146,9 +216,20 @@
           <img
             src="images/1_Accomodation/Superior Room View/2_229 Superior Room with view Detail_0028.JPG"
           />
-          <h3>Superior Room</h3>
-          <p>Room with direct lake view and modern design.</p>
-          <button class="details-btn" data-room="superior">Details</button>
+
+          <h3 data-key="room_room3_title">Superior Room</h3>
+
+          <p data-key="room_room3_desc">
+            Room with direct lake view and modern design.
+          </p>
+
+          <button
+            class="details-btn"
+            data-room="superior"
+            data-key="ta_details"
+          >
+            Details
+          </button>
         </div>
       </div>
 
@@ -158,25 +239,25 @@
           <span class="modal-close">&times;</span>
           <h3 id="modalTitle"></h3>
           <div id="modalDetails"></div>
-          <a href="#" class="btn-primary">Book This Room</a>
+          <a href="#" class="btn-primary" data-key="room_book_room">
+            Book This Room
+          </a>
         </div>
       </div>
     </section>
-    <!-- KIDS / FAMILY SECTION -->
+
+    <!-- DOG SECTION -->
     <section class="treatments-section">
       <div class="treatments-container">
         <div class="treatments-card">
-          <h3>Vacation with Your Dog</h3>
+          <h3 data-key="room_dog_title">Vacation with Your Dog</h3>
 
-          <p>
-            The Sunday Resort Hafendorf Rheinsberg warmly welcomes guests with
-            dogs. Enjoy a special holiday experience with your four-legged
-            companion in the beautiful natural surroundings.
+          <p data-key="room_dog_desc1">
+            The Sunday Resort Hafendorf Rheinsberg warmly welcomes guests with dogs. Enjoy a special holiday experience with your four-legged companion in the beautiful natural surroundings.
           </p>
 
-          <p>
-            Dogs are welcome in all room categories. Please inform us during
-            booking. Fee: €15 per pet per night.
+          <p data-key="room_dog_desc2">
+            Dogs are welcome in all room categories. Please inform us during booking. Fee: €15 per pet per night.
           </p>
         </div>
       </div>
@@ -185,9 +266,13 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-container">
-        <h2>Book Your Stay</h2>
-        <p>Enjoy a relaxing stay at Hafendorf Rheinsberg</p>
-        <a href="#" class="btn-primary">Book Now</a>
+        <h2 data-key="room_cta_title">Book Your Stay</h2>
+
+        <p data-key="room_cta_desc">
+          Enjoy a relaxing stay at Hafendorf Rheinsberg
+        </p>
+
+        <a href="#" class="btn-primary" data-key="book_now">Book Now</a>
       </div>
     </section>
     <!-- FOOTER -->

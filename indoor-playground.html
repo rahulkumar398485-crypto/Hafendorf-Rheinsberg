@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Indoor Playground | Hafendorf Rheinsberg</title>
+    <title data-key="ip_meta_title">
+      Indoor Playground | Hafendorf Rheinsberg
+    </title>
 
     <meta
       name="description"
+      data-key="ip_meta_description"
       content="Indoor playground and family experiences at Sunday Resort Hafendorf Rheinsberg."
     />
 
@@ -23,55 +26,86 @@
   <body>
     <div class="preloader"><div class="loader"></div></div>
 
-    <!-- HEADER SAME -->
+    <!-- HEADER (UNCHANGED STRUCTURE) -->
     <header class="site-header">
       <div class="header-container">
         <div class="logo">
-          <a href="index.html"
-            ><img src="images/output-onlinepngtools.png"
-          /></a>
+          <a href="index.html">
+            <img
+              src="images/output-onlinepngtools.png"
+              alt="Rheinsberg Resort"
+              data-key-alt="logo_alt"
+            />
+          </a>
         </div>
 
         <div class="nav-container">
           <nav class="main-navigation">
             <ul class="nav-menu">
               <li class="has-dropdown">
-                <a href="#">About</a>
+                <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">Our Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="gastronomy.html">Gastronomy</a></li>
-                  <li><a href="tourist-attractions.html">Attractions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Accommodation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="suites.html">Suites</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Wellness</a>
-                <ul class="dropdown-menu">
-                  <li><a href="pool.html">Pool Area</a></li>
-                  <li><a href="spa.html">Spa</a></li>
                   <li>
-                    <a href="indoor-playground.html">Indoor Playground</a>
+                    <a href="about.html" data-key="nav_story">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" data-key="nav_contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="gastronomy.html" data-key="nav_gastronomy"
+                      >Gastronomy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="tourist-attractions.html"
+                      data-key="nav_attractions"
+                      >Attractions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="gallery.html" data-key="nav_gallery">Gallery</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="marina.html">Marina</a></li>
-              <li><a href="event.html">Meetings & Events</a></li>
+
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_accommodation">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html" data-key="nav_rooms">Rooms</a></li>
+                  <li>
+                    <a href="suites.html" data-key="nav_suites">Suites</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_wellness">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html" data-key="nav_pool">Pool Area</a></li>
+                  <li><a href="spa.html" data-key="nav_spa">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html" data-key="nav_playground"
+                      >Indoor Playground</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="marina.html" data-key="nav_marina">Marina</a></li>
+              <li>
+                <a href="event.html" data-key="nav_events">Meetings & Events</a>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="nav-book">
-          <a href="#" class="btn-book">Book Now</a>
+          <a href="#" class="btn-book" data-key="book_now">Book Now</a>
+          <button id="langToggle" class="lang-btn">DE</button>
+        </div>
+
+        <div class="mobile-menu-toggle">
+          <span></span><span></span><span></span>
         </div>
       </div>
     </header>
@@ -86,9 +120,13 @@
       <div class="hero-overlay"></div>
 
       <div class="hero-content">
-        <h1>Indoor Playground</h1>
-        <p>Fun, adventure and unforgettable family moments</p>
-        <a href="#playground" class="btn-primary">Explore Playground</a>
+        <h1 data-key="ip_hero_title">Indoor Playground</h1>
+        <p data-key="ip_hero_text">
+          Fun, adventure and unforgettable family moments
+        </p>
+        <a href="#playground" class="btn-primary" data-key="ip_hero_btn">
+          Explore Playground
+        </a>
       </div>
     </section>
 
@@ -97,9 +135,11 @@
       <div class="overview-container">
         <div class="overview-divider"></div>
 
-        <h2>Family Experiences at Hafendorf Rheinsberg</h2>
+        <h2 data-key="ip_overview_title">
+          Family Experiences at Hafendorf Rheinsberg
+        </h2>
 
-        <p data-animate>
+        <p data-key="ip_overview_text" data-animate>
           At the Sunday Resort Hafendorf Rheinsberg, families can enjoy a wide
           range of activities in a relaxed and safe environment. The resort is
           surrounded by nature and offers the perfect setting for children to
@@ -112,40 +152,40 @@
 
     <!-- FEATURES -->
     <section class="facilities-section" id="playground">
-      <h2>Discover Family Activities</h2>
+      <h2 data-key="ip_features_title">Discover Family Activities</h2>
 
       <div class="facilities-container">
-        <div class="facility-card" data-animate>
+        <div class="facility-card">
           <img src="images/Ruppiner Seenland.jpeg" />
-          <h3>Boat Adventures</h3>
-          <p>
+          <h3 data-key="ip_boat_title">Boat Adventures</h3>
+          <p data-key="ip_boat_text">
             Discover the beautiful lake landscape by boat and enjoy a unique
             maritime experience with your family.
           </p>
         </div>
 
-        <div class="facility-card" data-animate>
+        <div class="facility-card">
           <img src="images/Cycling Tours.jpg" />
-          <h3>Cycling Tours</h3>
-          <p>
+          <h3 data-key="ip_cycling_title">Cycling Tours</h3>
+          <p data-key="ip_cycling_text">
             Explore the Mecklenburg Lake District by bike and enjoy nature
             together on scenic routes.
           </p>
         </div>
 
-        <div class="facility-card" data-animate>
+        <div class="facility-card">
           <img src="images/6_Kids/Spielplatz Hafendorf Rheinsberg.JPG" />
-          <h3>Nature Exploration</h3>
-          <p>
+          <h3 data-key="ip_nature_title">Nature Exploration</h3>
+          <p data-key="ip_nature_text">
             Walk through forests, lakes and meadows and discover the natural
             beauty around Rheinsberg.
           </p>
         </div>
 
-        <div class="facility-card" data-animate>
+        <div class="facility-card">
           <img src="images/6_Kids/Kids Club_0002.JPG" />
-          <h3>Family Time</h3>
-          <p>
+          <h3 data-key="ip_family_title">Family Time</h3>
+          <p data-key="ip_family_text">
             Spend quality time together in a peaceful environment designed for
             relaxation and fun.
           </p>
@@ -153,37 +193,19 @@
       </div>
     </section>
 
-    <!-- KIDS / FAMILY SECTION -->
-    <!-- <section class="treatments-section">
-      <div class="treatments-container">
-        <div class="treatments-card">
-          <h3>Vacation with Your Dog</h3>
-
-          <p>
-            The Sunday Resort Hafendorf Rheinsberg warmly welcomes guests with
-            dogs. Enjoy a special holiday experience with your four-legged
-            companion in the beautiful natural surroundings.
-          </p>
-
-          <p>
-            Dogs are welcome in all room categories. Please inform us during
-            booking. Fee: €15 per pet per night.
-          </p>
-        </div>
-      </div>
-    </section> -->
-
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-container">
-        <h2>Plan Your Family Getaway</h2>
+        <h2 data-key="ip_cta_title">Plan Your Family Getaway</h2>
 
-        <p>
+        <p data-key="ip_cta_text">
           Experience relaxation, nature and unforgettable family moments at Lake
           Rheinsberg.
         </p>
 
-        <a href="contact.html" class="btn-primary">Book Now</a>
+        <a href="contact.html" class="btn-primary" data-key="ip_cta_btn">
+          Book Now
+        </a>
       </div>
     </section>
     <!-- FOOTER -->

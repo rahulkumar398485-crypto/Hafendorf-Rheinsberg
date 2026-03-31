@@ -31,6 +31,7 @@
             <img
               src="images/output-onlinepngtools.png"
               alt="Rheinsberg Resort"
+              data-key-alt="logo_alt"
             />
           </a>
         </div>
@@ -39,42 +40,65 @@
           <nav class="main-navigation">
             <ul class="nav-menu">
               <li class="has-dropdown">
-                <a href="#">About</a>
+                <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">Our Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="gastronomy.html">Gastronomy</a></li>
-                  <li><a href="tourist-attractions.html">Attractions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Accommodation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="suites.html">Suites</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Wellness</a>
-                <ul class="dropdown-menu">
-                  <li><a href="pool.html">Pool Area</a></li>
-                  <li><a href="spa.html">Spa</a></li>
                   <li>
-                    <a href="indoor-playground.html">Indoor Playground</a>
+                    <a href="about.html" data-key="nav_story">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" data-key="nav_contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="gastronomy.html" data-key="nav_gastronomy"
+                      >Gastronomy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="tourist-attractions.html"
+                      data-key="nav_attractions"
+                      >Attractions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="gallery.html" data-key="nav_gallery">Gallery</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="marina.html">Marina</a></li>
-              <li><a href="event.html">Meetings & Events</a></li>
+
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_accommodation">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html" data-key="nav_rooms">Rooms</a></li>
+                  <li>
+                    <a href="suites.html" data-key="nav_suites">Suites</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_wellness">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html" data-key="nav_pool">Pool Area</a></li>
+                  <li><a href="spa.html" data-key="nav_spa">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html" data-key="nav_playground"
+                      >Indoor Playground</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="marina.html" data-key="nav_marina">Marina</a></li>
+              <li>
+                <a href="event.html" data-key="nav_events">Meetings & Events</a>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="nav-book">
-          <a href="#" class="btn-book">Book Now</a>
+          <a href="#" class="btn-book" data-key="book_now">Book Now</a>
+          <button id="langToggle" class="lang-btn">DE</button>
         </div>
 
         <div class="mobile-menu-toggle">
@@ -82,7 +106,6 @@
         </div>
       </div>
     </header>
-
     <!-- HERO -->
     <section
       class="hero-section"
@@ -93,20 +116,24 @@
       <div class="hero-overlay"></div>
 
       <div class="hero-content">
-        <h1>Gastronomy</h1>
-        <p>A Culinary Journey at Lake Rheinsberg</p>
-        <a href="#package-offers" class="btn-primary">View Restaurants</a>
+        <h1 data-key="gastro_title">Gastronomy</h1>
+        <p data-key="gastro_desc">A Culinary Journey at Lake Rheinsberg</p>
+        <a href="#package-offers" class="btn-primary" data-key="gastro_cta">
+          View Restaurants
+        </a>
       </div>
     </section>
 
     <!-- OVERVIEW -->
     <section class="overview-section">
       <div class="overview-container">
-        <h2 class="section-heading">A Culinary Journey</h2>
+        <h2 class="section-heading" data-key="gastro_overview_title">
+          A Culinary Journey
+        </h2>
 
         <div class="overview-divider"></div>
 
-        <p>
+        <p data-key="gastro_overview_desc">
           The Sunday Resort Hafendorf Rheinsberg offers a wide range of culinary
           experiences. Restaurants and bars are the central meeting place for
           breakfast, dinner or a relaxing drink by the water. Guests enjoy
@@ -122,47 +149,57 @@
         <!-- CARD 1 -->
         <div class="package-card">
           <img src="images/4_Dining/Luv & Lee/L&L Gäste_0054.jpg" />
-          <h3>LUV & LEE Restaurant</h3>
-          <p>
+          <h3 data-key="gastro_rest1_title">LUV & LEE Restaurant</h3>
+          <p data-key="gastro_rest1_desc">
             The half-board restaurant offers fresh regional cuisine right on the
             marina. Enjoy fish, meat and vegetarian dishes with a beautiful view
             of Lake Rheinsberg.
           </p>
-          <p><strong>Breakfast: 7:00 – 10:30</strong></p>
-          <p><strong>Dinner: 17:30 – 20:00 (Fri–Sat until 21:00)</strong></p>
+          <p>
+            <strong data-key="gastro_rest1_time1"
+              >Breakfast: 7:00 – 10:30</strong
+            >
+          </p>
+          <p>
+            <strong data-key="gastro_rest1_time2"
+              >Dinner: 17:30 – 20:00 (Fri–Sat until 21:00)</strong
+            >
+          </p>
         </div>
 
         <!-- CARD 2 -->
         <div class="package-card">
           <img src="images/4_Dining/Seaport/Terrasse_0015.jpg" />
-          <h3>Seaport Bar & Restaurant</h3>
-          <p>
+          <h3 data-key="gastro_rest2_title">Seaport Bar & Restaurant</h3>
+          <p data-key="gastro_rest2_desc">
             A relaxed dining experience with regional and international dishes
             in a modern maritime atmosphere directly at the harbor.
           </p>
-          <p><strong>Open seasonally</strong></p>
+          <p><strong data-key="gastro_rest2_time">Open seasonally</strong></p>
         </div>
 
         <!-- CARD 3 -->
         <div class="package-card">
           <img src="images/4_Dining/Luv & Lee/Bar daylight_0009.JPG" />
-          <h3>Harbor Bar</h3>
-          <p>
+          <h3 data-key="gastro_rest3_title">Harbor Bar</h3>
+          <p data-key="gastro_rest3_desc">
             Enjoy cocktails, wines and refreshing drinks with a stunning
             waterfront view. The perfect place to relax after a day at the lake.
           </p>
-          <p><strong>Open daily</strong></p>
+          <p><strong data-key="gastro_rest3_time">Open daily</strong></p>
         </div>
 
         <!-- CARD 4 -->
         <div class="package-card">
           <img src="images/3_Public areas/nightclub_0003.JPG" />
-          <h3>Nightclub 53°/12°</h3>
-          <p>
+          <h3 data-key="gastro_rest4_title">Nightclub 53°/12°</h3>
+          <p data-key="gastro_rest4_desc">
             Experience vibrant nightlife with music, cocktails and a stylish
             atmosphere directly by the waterfront.
           </p>
-          <p><strong>Open on select days</strong></p>
+          <p>
+            <strong data-key="gastro_rest4_time">Open on select days</strong>
+          </p>
         </div>
       </div>
     </section>
@@ -170,19 +207,21 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-container">
-        <h2>Reserve Your Table</h2>
+        <h2 data-key="gastro_cta_title">Reserve Your Table</h2>
 
-        <p>
+        <p data-key="gastro_cta_desc">
           Enjoy unforgettable dining experiences at Sunday Resort Hafendorf
           Rheinsberg.
         </p>
 
         <p>
-          Restaurant phone number
+          <span data-key="gastro_cta_phone_label">Restaurant phone number</span>
           <a href="tel:+4933931800872">+49 33 931 800 805</a>
         </p>
 
-        <a href="contact.html" class="btn-primary">Contact Us</a>
+        <a href="contact.html" class="btn-primary" data-key="hero_cta">
+          Contact Us
+        </a>
       </div>
     </section>
 

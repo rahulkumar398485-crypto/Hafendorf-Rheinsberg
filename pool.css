@@ -417,3 +417,7 @@
     opacity: 1;
   }
 }
+.overview-container p[data-animate] {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}

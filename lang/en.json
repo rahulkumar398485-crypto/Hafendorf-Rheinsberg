@@ -1,0 +1,517 @@
+{
+  "page_title": "Sunday Resort Hafendorf Rheinsberg",
+  "meta_description": "Sunday Resort Hafendorf Rheinsberg – your idyllic retreat on Lake Rheinsberg with marina, wellness, gastronomy and stylish accommodation.",
+
+  "nav_about": "About",
+  "nav_story": "Our Story",
+  "nav_contact": "Contact",
+  "nav_gastronomy": "Gastronomy",
+  "nav_attractions": "Attractions",
+  "nav_gallery": "Gallery",
+
+  "nav_accommodation": "Accommodation",
+  "nav_rooms": "Rooms",
+  "nav_suites": "Suites",
+
+  "nav_wellness": "Wellness",
+  "nav_pool": "Pool Area",
+  "nav_spa": "Spa",
+  "nav_playground": "Indoor Playground",
+
+  "nav_marina": "Marina",
+  "nav_events": "Meetings & Events",
+
+  "book_now": "Book Now",
+
+  "hero_title": "Sunday Resort Hafendorf Rheinsberg",
+  "hero_subtitle": "An idyllic retreat right on Lake Rheinsberg",
+  "hero_cta": "Book Your Stay",
+
+  "hero_slide2_title": "Comfortable Rooms & Suites",
+  "hero_slide2_desc": "Stylish accommodation with lake and marina views",
+  "hero_slide2_cta": "Explore Rooms",
+
+  "hero_slide3_title": "Wellness & Relaxation",
+  "hero_slide3_desc": "2,000 m² spa area for body and mind",
+  "hero_slide3_cta": "Discover Wellness",
+
+  "quote_text": "Relaxation, nature and maritime flair in the Mecklenburg Lake District",
+
+  "section_highlights": "Highlights",
+  "highlight_rooms": "Rooms",
+  "highlight_suites": "Suites",
+  "highlight_spa": "Wellness & Spa",
+  "highlight_gastro": "Gastronomy",
+  "highlight_marina": "Marina",
+  "highlight_events": "Meetings & Events",
+
+  "section_discover": "Discover",
+  "discover_title": "A Resort Surrounded by Nature",
+  "discover_desc": "Welcome to Sunday Resort Hafendorf Rheinsberg – your retreat by the water, where relaxation, nature and stylish comfort come together. Located in the Mecklenburg Lake District, it is the perfect place for a peaceful escape.",
+  "learn_more": "Learn More",
+
+  "section_accommodation": "Accommodation",
+  "accommodation_title": "Rooms & Suites with Lake Views",
+  "accommodation_desc": "Enjoy maritime-style rooms and elegant suites with views of the harbor, lighthouse and surrounding nature. A perfect combination of comfort and scenic beauty.",
+  "view_accommodation": "View Accommodation",
+
+  "section_wellness": "Wellness",
+  "wellness_title": "A Place to Feel Good",
+  "wellness_desc": "Relax in a 2,000 m² wellness area featuring pool, sauna, spa treatments and peaceful relaxation zones.",
+  "explore_wellness": "Explore Wellness",
+
+  "section_explore": "Explore Rheinsberg",
+  "explore_lake": "Lake Rheinsberg",
+  "explore_castle": "Rheinsberg Castle",
+  "explore_cycling": "Cycling Tours",
+  "explore_hiking": "Hiking Trails",
+
+  "contact_us": "Contact Us",
+  "quick_links": "Quick Links",
+  "newsletter": "Newsletter",
+  "subscribe": "Subscribe",
+
+  "footer_rooms": "Rooms",
+  "footer_suites": "Suites",
+  "footer_spa": "Wellness & Spa",
+  "footer_gastro": "Gastronomy",
+  "footer_marina": "Marina",
+  "footer_family": "Indoor Playground",
+
+  "footer_copy": "© 2026 Sunday Resort Hafendorf Rheinsberg",
+
+  "newsletter_placeholder": "Your email address",
+  "about_page_title": "About Sunday Resort Hafendorf Rheinsberg",
+  "about_meta_description": "Discover Sunday Resort Hafendorf Rheinsberg – an idyllic lakeside resort with marina, wellness, gastronomy and stylish accommodation.",
+
+  "about_hero_title": "Sunday Resort Hafendorf Rheinsberg",
+  "about_hero_desc": "An idyllic retreat right on Lake Rheinsberg",
+  
+
+  "about_section_story": "Our Story",
+
+  "about_nature_title": "A Resort by the Water",
+  "about_nature_desc": "Welcome to Sunday Resort Hafendorf Rheinsberg – your retreat by the water, where relaxation, nature, and stylish comfort come together. Located in the picturesque Mecklenburg Lake District, the resort offers a unique combination of tranquility and maritime atmosphere.",
+
+  "about_guest_title": "Perfect for Every Stay",
+  "about_guest_desc": "Whether you are looking for a relaxing holiday, an active weekend or a special break, you will find it here. Enjoy spacious rooms and suites, culinary highlights, wellness experiences and explore the surrounding lake landscape, historic Rheinsberg and its famous castle.",
+
+  "about_location_label": "Location",
+  "about_location_title": "Lake Rheinsberg",
+  "about_location_desc": "Located in the Mecklenburg Lake District, the resort is surrounded by nature, water and scenic landscapes ideal for relaxation and outdoor activities.",
+
+  "about_nearby": "Nearby Attractions:",
+  "about_attr1": "Rheinsberg Castle",
+  "about_attr2": "Ruppiner Seenland",
+  "about_attr3": "Stechlin Running Park",
+  "about_attr4": "Lake District cycling routes",
+
+  "about_why": "Why Guests Love It",
+  "about_why1": "Direct lake access and marina",
+  "about_why2": "Perfect for boating and water sports",
+  "about_why3": "Beautiful natural surroundings",
+  "about_why4": "Ideal for hiking and cycling",
+
+  "about_values_label": "What We Offer",
+  "about_values_title": "Experience the Best of Rheinsberg",
+
+  "about_val1_title": "Comfortable Rooms & Suites",
+  "about_val1_desc": "Maritime-style rooms and elegant suites with views of the harbor, lighthouse and surrounding countryside.",
+
+  "about_val2_title": "Wellness & Spa",
+  "about_val2_desc": "2,000 m² wellness area with pool, sauna, treatments and relaxation spaces.",
+
+  "about_val3_title": "Gastronomy",
+  "about_val3_desc": "Regional and international cuisine in restaurants and bars with a beautiful lake view.",
+
+  "about_val4_title": "Marina Experience",
+  "about_val4_desc": "Discover the marina, rent boats or enjoy life directly on the water.",
+  "logo_alt": "Sunday Resort Hafendorf Rheinsberg",
+   "contact_page_title": "Contact Sunday Resort Hafendorf Rheinsberg",
+  "contact_meta_description": "Contact Sunday Resort Hafendorf Rheinsberg for bookings, marina stays, wellness experiences and events by Lake Rheinsberg.",
+
+  "contact_title": "Contact Us",
+  "contact_desc": "Plan your stay at Sunday Resort Hafendorf Rheinsberg",
+  "contact_cta": "Get in Touch",
+
+  "contact_form_label": "Get in Touch",
+
+  "contact_info_label": "Contact Information",
+  "contact_reach": "Reach Us",
+  "contact_hotel_name": "Sunday Resort Hafendorf Rheinsberg",
+
+  "contact_getting_here": "Getting Here",
+  "contact_travel": "Travel to Lake Rheinsberg",
+
+  "contact_train": "By Train",
+  "contact_train_desc": "Travel via Berlin to Rheinsberg station. From there, the resort is just a short taxi ride away.",
+
+  "contact_car": "By Car",
+  "contact_car_desc": "Easily accessible from Berlin (approx. 1.5 hours). Follow directions towards Rheinsberg in Brandenburg.",
+
+  "contact_air": "By Air",
+  "contact_air_desc": "Nearest airport: Berlin Brandenburg Airport (BER), approx. 100 km from the resort.",
+ "gastro_page_title": "Gastronomy | Sunday Resort Hafendorf Rheinsberg",
+  "gastro_meta_description": "Enjoy culinary experiences at Sunday Resort Hafendorf Rheinsberg with restaurants, bar and marina dining.",
+
+  "gastro_title": "Gastronomy",
+  "gastro_desc": "A Culinary Journey at Lake Rheinsberg",
+  "gastro_cta": "View Restaurants",
+
+  "gastro_overview_title": "A Culinary Journey",
+  "gastro_overview_desc": "The Sunday Resort Hafendorf Rheinsberg offers a wide range of culinary experiences. Restaurants and bars are the central meeting place for breakfast, dinner or a relaxing drink by the water. Guests enjoy creative regional and international specialties in a stylish maritime atmosphere.",
+
+  "gastro_rest1_title": "LUV & LEE Restaurant",
+  "gastro_rest1_desc": "The half-board restaurant offers fresh regional cuisine right on the marina. Enjoy fish, meat and vegetarian dishes with a beautiful view of Lake Rheinsberg.",
+  "gastro_rest1_time1": "Breakfast: 7:00 – 10:30",
+  "gastro_rest1_time2": "Dinner: 17:30 – 20:00 (Fri–Sat until 21:00)",
+
+  "gastro_rest2_title": "Seaport Bar & Restaurant",
+  "gastro_rest2_desc": "A relaxed dining experience with regional and international dishes in a modern maritime atmosphere directly at the harbor.",
+  "gastro_rest2_time": "Open seasonally",
+
+  "gastro_rest3_title": "Harbor Bar",
+  "gastro_rest3_desc": "Enjoy cocktails, wines and refreshing drinks with a stunning waterfront view. The perfect place to relax after a day at the lake.",
+  "gastro_rest3_time": "Open daily",
+
+  "gastro_rest4_title": "Nightclub 53°/12°",
+  "gastro_rest4_desc": "Experience vibrant nightlife with music, cocktails and a stylish atmosphere directly by the waterfront.",
+  "gastro_rest4_time": "Open on select days",
+
+  "gastro_cta_title": "Reserve Your Table",
+  "gastro_cta_desc": "Enjoy unforgettable dining experiences at Sunday Resort Hafendorf Rheinsberg.",
+  "gastro_cta_phone_label": "Restaurant phone number",
+  "ta_page_title": "Explore Rheinsberg | Sunday Resort Hafendorf Rheinsberg",
+  "ta_meta_description": "Discover the natural and cultural highlights around Sunday Resort Hafendorf Rheinsberg including lakes, cycling routes and historic sites.",
+
+  "ta_title": "Explore Rheinsberg",
+  "ta_desc": "Discover nature, lakes and cultural highlights",
+  "ta_cta": "Discover Attractions",
+
+  "ta_label": "Lake District Adventures",
+
+  "ta_overview_title": "Experience the Beauty of Rheinsberg",
+  "ta_overview_desc": "The Sunday Resort Hafendorf Rheinsberg is located in the beautiful Mecklenburg Lake District. Surrounded by lakes, forests and historic towns, the region offers endless opportunities for relaxation, exploration and outdoor activities.",
+
+  "ta_top_label": "Top Attractions",
+  "ta_top_title": "Discover the Region",
+
+  "ta_attr1_title": "Ruppiner Seenland",
+  "ta_attr1_desc": "A beautiful lake region connecting Berlin with the Mecklenburg Lake District, perfect for boating, canoeing and exploring nature.",
+
+  "ta_attr2_title": "Stechlin Running Park",
+  "ta_attr2_desc": "Over 350 km of marked trails for running, hiking and Nordic walking in a stunning natural environment.",
+
+  "ta_attr3_title": "Cycling Tours",
+  "ta_attr3_desc": "Discover the land of a thousand lakes by bike with scenic routes through forests, villages and along waterways.",
+
+  "ta_attr4_title": "Hiking Trails",
+  "ta_attr4_desc": "A wide network of hiking trails offers year-round experiences in nature with lakes, forests and wildlife.",
+
+  "ta_attr5_title": "Rheinsberg Castle",
+  "ta_attr5_desc": "A historic cultural highlight where Frederick the Great once lived, surrounded by beautiful gardens and lakes.",
+
+  "ta_details": "Details",
+
+  "ta_cta_title": "Plan Your Lake Adventure",
+  "ta_cta_desc": "Discover the beauty of the Mecklenburg Lake District while staying at Sunday Resort Hafendorf Rheinsberg.",
+   "gallery_page_title": "Gallery | Sunday Resort Hafendorf Rheinsberg",
+  "gallery_meta_description": "Discover Sunday Resort Hafendorf Rheinsberg through our photo gallery.",
+
+  "gallery_title": "Gallery",
+  "gallery_desc": "Discover the beauty of Hafendorf Rheinsberg",
+  "gallery_cta": "Explore Gallery",
+
+  "gallery_label": "Moments at the Resort",
+  "gallery_heading": "Explore Hafendorf Rheinsberg",
+
+  "gallery_all": "All",
+  "gallery_hotel": "Hotel",
+  "gallery_marina": "Marina",
+  "gallery_wellness": "Wellness",
+  "gallery_nature": "Nature",
+
+  "gallery_img1": "Comfortable rooms & suites",
+  "gallery_img2": "Elegant suite interiors",
+  "gallery_img3": "Marina on Lake Rheinsberg",
+  "gallery_img4": "Relaxing spa & wellness area",
+  "gallery_img5": "Lake Rheinsberg landscape",
+  "gallery_img6": "Rheinsberg Castle",
+
+  "gallery_cta_title": "Experience the Resort",
+  "gallery_cta_desc": "Plan your stay at Sunday Resort Hafendorf Rheinsberg and enjoy unforgettable moments.",
+  "room_page_title": "Rooms | Sunday Resort Hafendorf Rheinsberg",
+  "room_meta_description": "Discover rooms at Sunday Resort Hafendorf Rheinsberg with lake views and comfortable design.",
+
+  "room_title": "Rooms",
+  "room_desc": "Comfort and relaxation at Lake Rheinsberg",
+  "room_cta": "Explore Rooms",
+
+  "room_label": "Rooms",
+  "room_overview_title": "Discover the Comfort of Our Rooms",
+  "room_overview_desc": "The Sunday Resort Hafendorf Rheinsberg offers individually designed rooms with balconies and beautiful views of nature or the lake. Guests enjoy comfort, maritime style and a relaxing atmosphere.",
+
+  "room_room_types": "Room Types",
+  "room_choose": "Choose Your Room",
+
+  "room_classic": "Classic",
+  "room_superior": "Superior",
+
+  "room_room1_title": "Classic Room",
+  "room_room1_desc": "28 m² room with balcony and peaceful surroundings.",
+
+  "room_room2_title": "Classic Room (Lake View)",
+  "room_room2_desc": "28 m² room with balcony and side lake view.",
+
+  "room_room3_title": "Superior Room",
+  "room_room3_desc": "Room with direct lake view and modern design.",
+
+  "room_book_room": "Book This Room",
+
+  "room_dog_title": "Vacation with Your Dog",
+  "room_dog_desc1": "The Sunday Resort Hafendorf Rheinsberg warmly welcomes guests with dogs. Enjoy a special holiday experience with your four-legged companion in the beautiful natural surroundings.",
+  "room_dog_desc2": "Dogs are welcome in all room categories. Please inform us during booking. Fee: €15 per pet per night.",
+
+  "room_cta_title": "Book Your Stay",
+  "room_cta_desc": "Enjoy a relaxing stay at Hafendorf Rheinsberg",
+   "suites_meta_title": "Suites | Sunday Resort Hafendorf Rheinsberg",
+  "suites_meta_description": "Discover luxury suites at Sunday Resort Hafendorf Rheinsberg with marina views and premium comfort.",
+
+  "suites_hero_title": "Suites",
+  "suites_hero_text": "Luxury and comfort at Lake Rheinsberg",
+  "suites_hero_btn": "Explore Suites",
+
+  "suites_overview_label": "Suites",
+  "suites_overview_title": "Discover Our Suites",
+  "suites_overview_text": "From elegant junior suites to exclusive penthouse suites, each accommodation offers comfort, space and stunning views of the marina and Lake Rheinsberg.",
+
+  "suites_types_label": "Suite Types",
+  "suites_types_title": "Choose Your Suite",
+
+  "suites_filter_all": "All",
+  "suites_filter_junior": "Junior",
+  "suites_filter_island": "Island",
+  "suites_filter_luxury": "Luxury",
+
+  "suites_room1_title": "Junior Suite",
+  "suites_room1_desc": "42 m² suite with balcony, living area and sofa bed.",
+
+  "suites_room2_title": "1-Bedroom Island Suite",
+  "suites_room2_desc": "Spacious suite with terrace and private dock.",
+
+  "suites_room3_title": "2-Bedroom Island Suite",
+  "suites_room3_desc": "Perfect for families with two bedrooms and terrace.",
+
+  "suites_room4_title": "Penthouse Suite",
+  "suites_room4_desc": "102 m² luxury suite with fireplace and harbor view.",
+
+  "suites_room5_title": "Hafendorf Suite",
+  "suites_room5_desc": "Exclusive suite with private sauna and lake views.",
+
+  "suites_dog_title": "Vacation with Your Dog",
+  "suites_dog_desc1": "The Sunday Resort Hafendorf Rheinsberg warmly welcomes guests with dogs.  Enjoy a special holiday experience with your four-legged companion in the beautiful natural surroundings.",
+  "suites_dog_desc2": "Dogs are welcome in all room categories. Please inform us during booking. Fee: €15 per pet per night.",
+
+  "suites_cta_title": "Book Your Suite",
+  "suites_cta_text": "Enjoy luxury and relaxation at Hafendorf Rheinsberg",
+  "pool_meta_title": "Pool Area | Sunday Resort Hafendorf Rheinsberg",
+  "pool_meta_description": "Enjoy the pool area at Sunday Resort Hafendorf Rheinsberg with panoramic harbor views.",
+
+  "pool_hero_title": "Pool Area",
+  "pool_hero_text": "Swimming with a panoramic harbor view",
+  "pool_hero_btn": "Explore Pool",
+
+  "pool_overview_label": "Pool Area",
+  "pool_overview_title": "Swimming & Relaxation",
+  "pool_overview_text": "The pool at Sunday Resort Hafendorf Rheinsberg offers a relaxing experience with a unique panoramic view of the harbor, lighthouse and surrounding nature.",
+
+  "pool_features_label": "Pool Features",
+  "pool_features_title": "Enjoy the Pool",
+
+  "pool_main_title": "Main Pool",
+  "pool_main_text": "25 x 6 m pool with panoramic views of the harbor village.",
+
+  "pool_view_title": "Harbor View",
+  "pool_view_text": "Swim while enjoying views of the marina and lighthouse.",
+
+  "pool_relax_title": "Relaxation Area",
+  "pool_relax_text": "Quiet zones designed for rest and recovery.",
+
+  "pool_wellness_title": "Wellness Access",
+  "pool_wellness_text": "Direct access to sauna and wellness facilities.",
+
+  "details_btn": "Details",
+
+  "pool_cta_title": "Relax & Recharge",
+  "pool_cta_text": "Enjoy swimming and relaxation at Hafendorf Rheinsberg",
+  "pool_cta_btn": "Book Your Stay",
+   "spa_meta_title": "Wellness & Spa | Sunday Resort Hafendorf Rheinsberg",
+  "spa_meta_description": "Relax in the spa and wellness area at Sunday Resort Hafendorf Rheinsberg.",
+
+  "spa_hero_title": "Wellness & Spa",
+  "spa_hero_text": "A place to feel good",
+  "spa_hero_btn": "Discover Wellness",
+
+  "spa_overview_label": "Wellness",
+  "spa_overview_title": "A Place to Feel Good",
+  "spa_overview_text": "The Sunday Resort Hafendorf Rheinsberg offers an exclusive wellness area covering 2,000 m². Guests can relax body and mind in a peaceful and tranquil atmosphere.",
+
+  "spa_facilities_label": "Spa Facilities",
+  "spa_facilities_title": "Relax & Recharge",
+
+  "spa_treatments_title": "Spa Treatments",
+  "spa_treatments_text": "Massages, wellness treatments and relaxation therapies.",
+
+  "spa_sauna_title": "Sauna Area",
+  "spa_sauna_text": "Finnish sauna, steam bath and relaxation room.",
+
+  "spa_relax_title": "Relaxation Zones",
+  "spa_relax_text": "Quiet spaces designed for rest and recovery.",
+
+  "spa_private_title": "Private Spa Suites",
+  "spa_private_text": "Exclusive spa suites with whirlpool, sauna and privacy.",
+
+  "spa_hours_label": "Opening Hours",
+  "spa_hours_title": "Wellness Opening Times",
+
+  "spa_hours_main": "Sauna (Winter): 10:00 AM – 9:00 PM",
+  "spa_hours_summer": "Sauna (Summer): 2:00 PM – 9:00 PM",
+  "spa_contact": "Contact: +49 33 931 800 872",
+
+  "spa_cta_title": "Relax & Recharge",
+  "spa_cta_text": "Enjoy wellness and relaxation at Hafendorf Rheinsberg",
+  "spa_cta_btn": "Book Your Stay",
+   "ip_meta_title": "Indoor Playground | Sunday Resort Hafendorf Rheinsberg",
+  "ip_meta_description": "Indoor playground and family experiences at Sunday Resort Hafendorf Rheinsberg.",
+
+  "ip_hero_title": "Indoor Playground",
+  "ip_hero_text": "Fun, adventure and unforgettable family moments",
+  "ip_hero_btn": "Explore Playground",
+
+  "ip_overview_title": "Family Experiences at Hafendorf Rheinsberg",
+  "ip_overview_text": "At the Sunday Resort Hafendorf Rheinsberg, families can enjoy a wide range of activities in a relaxed and safe environment. The resort is surrounded by nature and offers the perfect setting for children to play, explore and enjoy unforgettable experiences.",
+
+  "ip_features_title": "Discover Family Activities",
+
+  "ip_boat_title": "Boat Adventures",
+  "ip_boat_text": "Discover the beautiful lake landscape by boat and enjoy a unique maritime experience with your family.",
+
+  "ip_cycling_title": "Cycling Tours",
+  "ip_cycling_text": "Explore the Mecklenburg Lake District by bike and enjoy nature together on scenic routes.",
+
+  "ip_nature_title": "Nature Exploration",
+  "ip_nature_text": "Walk through forests, lakes and meadows and discover the natural beauty around Rheinsberg.",
+
+  "ip_family_title": "Family Time",
+  "ip_family_text": "Spend quality time together in a peaceful environment designed for relaxation and fun.",
+
+  "ip_cta_title": "Plan Your Family Getaway",
+  "ip_cta_text": "Experience relaxation, nature and unforgettable family moments at Lake Rheinsberg.",
+  "ip_cta_btn": "Book Now",
+   "marina_meta_title": "Marina | Sunday Resort Hafendorf Rheinsberg",
+  "marina_meta_description": "Discover the marina at Sunday Resort Hafendorf Rheinsberg with boat rentals and waterfront experiences.",
+
+  "marina_hero_title": "Marina",
+  "marina_hero_text": "Experience life on the water",
+  "marina_hero_btn": "Explore Marina",
+
+  "marina_overview_label": "Marina",
+  "marina_overview_title": "Let’s Go!",
+  "marina_overview_text": "Discover the heart of Sunday Resort Hafendorf Rheinsberg: the marina on Lake Rheinsberg. Everything revolves around maritime flair and life on the water.",
+
+  "marina_activities_label": "Marina Highlights",
+  "marina_activities_title": "Life on the Water",
+
+  "marina_card1_title": "Harbor Village",
+  "marina_card1_text": "Beautiful marina surrounded by picturesque bridges and waterfront views.",
+
+  "marina_card2_title": "Boat Rental",
+  "marina_card2_text": "Explore the lake landscape by renting a boat directly at the resort.",
+
+  "marina_card3_title": "Mooring Service",
+  "marina_card3_text": "Guests can bring their own boats and use the marina docking service.",
+
+  "marina_card4_title": "Lake Experience",
+  "marina_card4_text": "Enjoy relaxing days by the water with scenic lake views and activities.",
+
+  "marina_outdoors_label": "Activities",
+
+  "marina_boating_title": "Boating",
+  "marina_boating_text": "Discover Lake Rheinsberg and surrounding waterways by boat.",
+
+  "marina_relax_title": "Waterfront Relaxation",
+  "marina_relax_text": "Enjoy peaceful moments by the harbor with maritime atmosphere.",
+
+  "marina_cta_title": "Discover the Marina",
+  "marina_cta_text": "Enjoy unforgettable moments by the water at Hafendorf Rheinsberg",
+  "marina_cta_btn": "Book Your Stay",
+    "events_meta_title": "Meetings & Events | Sunday Resort Hafendorf Rheinsberg",
+  "events_meta_description": "Host meetings, conferences and events at Sunday Resort Hafendorf Rheinsberg.",
+
+  "events_hero_title": "Meetings & Events",
+  "events_hero_text": "A unique venue for your event",
+  "events_hero_btn": "Explore Spaces",
+
+  "events_overview_title": "A Unique Venue for Your Event",
+  "events_overview_text1": "The Sunday Resort Hafendorf Rheinsberg offers approximately 3,000 m² of multifunctional meeting space with 11 versatile event rooms.",
+  "events_overview_text2": "Whether seminars, conferences or private celebrations – modern facilities and flexible layouts ensure the perfect setting for every event.",
+
+  "events_spaces_label": "Event Spaces",
+
+  "events_space1_title": "Conference Rooms",
+  "events_space1_text": "Flexible meeting rooms equipped for seminars and conferences.",
+
+  "events_space2_title": "Private Celebrations",
+  "events_space2_text": "Perfect venues for weddings, parties and special occasions.",
+
+  "events_space3_title": "Large Event Spaces",
+  "events_space3_text": "Spacious areas suitable for large-scale events and conferences.",
+
+  "events_facilities_label": "Facilities",
+
+  "events_amenity1_title": "Modern Equipment",
+  "events_amenity1_text": "Fully equipped meeting rooms with modern technology.",
+
+  "events_amenity2_title": "Accommodation",
+  "events_amenity2_text": "Guests can stay in comfortable rooms and suites.",
+
+  "events_amenity3_title": "Catering",
+  "events_amenity3_text": "Customized catering from our restaurants and chefs.",
+
+  "events_amenity4_title": "Wellness Access",
+  "events_amenity4_text": "Relax after events in spa and wellness facilities.",
+
+  "events_packages_label": "Event Types",
+
+  "events_package1_title": "Weddings",
+  "events_package1_item1": "Custom event planning",
+  "events_package1_item2": "Decorations & catering",
+  "events_package1_item3": "Unforgettable celebration",
+
+  "events_package2_title": "Meetings",
+  "events_package2_item1": "Modern conference rooms",
+  "events_package2_item2": "Professional support",
+  "events_package2_item3": "Flexible layouts",
+
+  "events_cta_title": "Plan Your Event",
+  "events_cta_text": "Our team will help you organize a successful event",
+  "events_cta_btn": "Contact Us",
+  "ta_attr1_modal": "A beautiful lake region connecting Berlin with the Mecklenburg Lake District, perfect for boating, canoeing and exploring nature.",
+"ta_attr2_modal": "Over 350 km of marked trails for running, hiking and Nordic walking in a stunning natural environment.",
+"ta_attr3_modal": "Discover the land of a thousand lakes by bike with scenic routes through forests, villages and along waterways.",
+"ta_attr4_modal": "A wide network of hiking trails offers year-round experiences in nature with lakes, forests and wildlife.",
+"ta_attr5_modal": "A historic cultural highlight where Frederick the Great once lived, surrounded by beautiful gardens and lakes.",
+"room_room1_modal": "28 m² room with balcony and peaceful surroundings.",
+"room_room2_modal": "28 m² room with balcony and side lake view.",
+"room_room3_modal": "Room with direct lake view and modern design.",
+"suites_room1_modal": "42 m² suite with balcony, living area and sofa bed.",
+"suites_room2_modal": "Spacious suite with terrace and private dock.",
+"suites_room3_modal": "Perfect for families with two bedrooms and terrace.",
+"suites_room4_modal": "102 m² luxury suite with fireplace and harbor view.",
+"suites_room5_modal": "Exclusive suite with private sauna and lake views.",
+"pool_main_modal": "25 x 6 m pool with panoramic views of the harbor village.",
+"pool_view_modal": "Swim while enjoying views of the marina and lighthouse.",
+"pool_relax_modal": "Quiet zones designed for rest and recovery.",
+"pool_wellness_modal": "Direct access to sauna and wellness area."
+
+}

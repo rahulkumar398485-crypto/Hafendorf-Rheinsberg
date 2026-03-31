@@ -29,7 +29,6 @@
     <!-- PRELOADER -->
     <div class="preloader"><div class="loader"></div></div>
 
-    <!-- HEADER (UNCHANGED) -->
     <header class="site-header">
       <div class="header-container">
         <div class="logo">
@@ -37,6 +36,7 @@
             <img
               src="images/output-onlinepngtools.png"
               alt="Rheinsberg Resort"
+              data-key-alt="logo_alt"
             />
           </a>
         </div>
@@ -45,42 +45,65 @@
           <nav class="main-navigation">
             <ul class="nav-menu">
               <li class="has-dropdown">
-                <a href="#">About</a>
+                <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">Our Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="gastronomy.html">Gastronomy</a></li>
-                  <li><a href="tourist-attractions.html">Attractions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Accommodation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="suites.html">Suites</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Wellness</a>
-                <ul class="dropdown-menu">
-                  <li><a href="pool.html">Pool Area</a></li>
-                  <li><a href="spa.html">Spa</a></li>
                   <li>
-                    <a href="indoor-playground.html">Indoor Playground</a>
+                    <a href="about.html" data-key="nav_story">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" data-key="nav_contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="gastronomy.html" data-key="nav_gastronomy"
+                      >Gastronomy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="tourist-attractions.html"
+                      data-key="nav_attractions"
+                      >Attractions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="gallery.html" data-key="nav_gallery">Gallery</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="#">Marina</a></li>
-              <li><a href="event.html">Meetings & Events</a></li>
+
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_accommodation">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html" data-key="nav_rooms">Rooms</a></li>
+                  <li>
+                    <a href="suites.html" data-key="nav_suites">Suites</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_wellness">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html" data-key="nav_pool">Pool Area</a></li>
+                  <li><a href="spa.html" data-key="nav_spa">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html" data-key="nav_playground"
+                      >Indoor Playground</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="marina.html" data-key="nav_marina">Marina</a></li>
+              <li>
+                <a href="event.html" data-key="nav_events">Meetings & Events</a>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="nav-book">
-          <a href="#" class="btn-book">Book Now</a>
+          <a href="#" class="btn-book" data-key="book_now">Book Now</a>
+          <button id="langToggle" class="lang-btn">DE</button>
         </div>
 
         <div class="mobile-menu-toggle">
@@ -89,28 +112,32 @@
       </div>
     </header>
 
+    <!-- ONLY TEXT PARTS UPDATED WITH data-key -->
+
     <!-- HERO -->
     <section class="hero-section parallax">
       <div class="hero-content">
-        <h1>Sunday Resort Hafendorf Rheinsberg</h1>
-        <p>An idyllic retreat right on Lake Rheinsberg</p>
-        <a href="#" class="btn-primary">Book Your Stay</a>
+        <h1 data-key="about_hero_title">Sunday Resort Hafendorf Rheinsberg</h1>
+        <p data-key="about_hero_desc">
+          An idyllic retreat right on Lake Rheinsberg
+        </p>
+        <a href="#" class="btn-primary" data-key="hero_cta">Book Your Stay</a>
       </div>
     </section>
 
     <!-- STORY -->
     <section class="history-section">
-      <div class="section-label">Our Story</div>
+      <div class="section-label" data-key="about_section_story">Our Story</div>
 
-      <h2>Sunday Resort Hafendorf Rheinsberg</h2>
+      <h2 data-key="hero_title">Sunday Resort Hafendorf Rheinsberg</h2>
 
       <div class="history-container">
         <div class="history-card">
           <img src="images/2_Facade_Outdoor/image003.jpg" />
 
           <div class="history-content">
-            <h3>A Resort by the Water</h3>
-            <p>
+            <h3 data-key="about_nature_title">A Resort by the Water</h3>
+            <p data-key="about_nature_desc">
               Welcome to Sunday Resort Hafendorf Rheinsberg – your retreat by
               the water, where relaxation, nature, and stylish comfort come
               together. Located in the picturesque Mecklenburg Lake District,
@@ -126,8 +153,8 @@
           />
 
           <div class="history-content">
-            <h3>Perfect for Every Stay</h3>
-            <p>
+            <h3 data-key="about_guest_title">Perfect for Every Stay</h3>
+            <p data-key="about_guest_desc">
               Whether you are looking for a relaxing holiday, an active weekend
               or a special break, you will find it here. Enjoy spacious rooms
               and suites, culinary highlights, wellness experiences and explore
@@ -143,32 +170,34 @@
     <section class="location-section">
       <div class="location-container">
         <div class="location-sidebar">
-          <div class="section-label">Location</div>
+          <div class="section-label" data-key="about_location_label">
+            Location
+          </div>
 
-          <h2>Lake Rheinsberg</h2>
+          <h2 data-key="about_location_title">Lake Rheinsberg</h2>
 
-          <p>
+          <p data-key="about_location_desc">
             Located in the Mecklenburg Lake District, the resort is surrounded
             by nature, water and scenic landscapes ideal for relaxation and
             outdoor activities.
           </p>
 
-          <p><strong>Nearby Attractions:</strong></p>
+          <p><strong data-key="about_nearby">Nearby Attractions:</strong></p>
 
           <ul>
-            <li>Rheinsberg Castle</li>
-            <li>Ruppiner Seenland</li>
-            <li>Stechlin Running Park</li>
-            <li>Lake District cycling routes</li>
+            <li data-key="about_attr1">Rheinsberg Castle</li>
+            <li data-key="about_attr2">Ruppiner Seenland</li>
+            <li data-key="about_attr3">Stechlin Running Park</li>
+            <li data-key="about_attr4">Lake District cycling routes</li>
           </ul>
 
-          <p><strong>Why Guests Love It</strong></p>
+          <p><strong data-key="about_why">Why Guests Love It</strong></p>
 
           <ul>
-            <li>Direct lake access and marina</li>
-            <li>Perfect for boating and water sports</li>
-            <li>Beautiful natural surroundings</li>
-            <li>Ideal for hiking and cycling</li>
+            <li data-key="about_why1">Direct lake access and marina</li>
+            <li data-key="about_why2">Perfect for boating and water sports</li>
+            <li data-key="about_why3">Beautiful natural surroundings</li>
+            <li data-key="about_why4">Ideal for hiking and cycling</li>
           </ul>
         </div>
 
@@ -184,15 +213,17 @@
 
     <!-- VALUES -->
     <section class="values-section">
-      <div class="section-label">What We Offer</div>
+      <div class="section-label" data-key="about_values_label">
+        What We Offer
+      </div>
 
-      <h2>Experience the Best of Rheinsberg</h2>
+      <h2 data-key="about_values_title">Experience the Best of Rheinsberg</h2>
 
       <div class="values-container">
         <div class="value-card" data-animate>
           <i class="fas fa-hotel"></i>
-          <h3>Comfortable Rooms & Suites</h3>
-          <p>
+          <h3 data-key="about_val1_title">Comfortable Rooms & Suites</h3>
+          <p data-key="about_val1_desc">
             Maritime-style rooms and elegant suites with views of the harbor,
             lighthouse and surrounding countryside.
           </p>
@@ -200,8 +231,8 @@
 
         <div class="value-card" data-animate>
           <i class="fas fa-spa"></i>
-          <h3>Wellness & Spa</h3>
-          <p>
+          <h3 data-key="about_val2_title">Wellness & Spa</h3>
+          <p data-key="about_val2_desc">
             2,000 m² wellness area with pool, sauna, treatments and relaxation
             spaces.
           </p>
@@ -209,8 +240,8 @@
 
         <div class="value-card" data-animate>
           <i class="fas fa-utensils"></i>
-          <h3>Gastronomy</h3>
-          <p>
+          <h3 data-key="about_val3_title">Gastronomy</h3>
+          <p data-key="about_val3_desc">
             Regional and international cuisine in restaurants and bars with a
             beautiful lake view.
           </p>
@@ -218,8 +249,8 @@
 
         <div class="value-card" data-animate>
           <i class="fas fa-ship"></i>
-          <h3>Marina Experience</h3>
-          <p>
+          <h3 data-key="about_val4_title">Marina Experience</h3>
+          <p data-key="about_val4_desc">
             Discover the marina, rent boats or enjoy life directly on the water.
           </p>
         </div>

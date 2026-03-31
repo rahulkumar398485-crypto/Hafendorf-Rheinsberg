@@ -24,84 +24,115 @@
     <div class="preloader"><div class="loader"></div></div>
 
     <!-- HEADER -->
+ <!-- HEADER (UNCHANGED STRUCTURE) -->
     <header class="site-header">
       <div class="header-container">
         <div class="logo">
-          <a href="index.html"
-            ><img src="images/output-onlinepngtools.png"
-          /></a>
+          <a href="index.html">
+            <img
+              src="images/output-onlinepngtools.png"
+              alt="Rheinsberg Resort"
+              data-key-alt="logo_alt"
+            />
+          </a>
         </div>
 
         <div class="nav-container">
           <nav class="main-navigation">
             <ul class="nav-menu">
               <li class="has-dropdown">
-                <a href="#">About</a>
+                <a href="#" aria-haspopup="true" data-key="nav_about">About</a>
                 <ul class="dropdown-menu">
-                  <li><a href="about.html">Our Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="gastronomy.html">Gastronomy</a></li>
-                  <li><a href="tourist-attractions.html">Attractions</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Accommodation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="suites.html">Suites</a></li>
-                </ul>
-              </li>
-
-              <li class="has-dropdown">
-                <a href="#">Wellness</a>
-                <ul class="dropdown-menu">
-                  <li><a href="pool.html">Pool Area</a></li>
-                  <li><a href="spa.html">Spa</a></li>
                   <li>
-                    <a href="indoor-playground.html">Indoor Playground</a>
+                    <a href="about.html" data-key="nav_story">Our Story</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" data-key="nav_contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="gastronomy.html" data-key="nav_gastronomy"
+                      >Gastronomy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="tourist-attractions.html"
+                      data-key="nav_attractions"
+                      >Attractions</a
+                    >
+                  </li>
+                  <li>
+                    <a href="gallery.html" data-key="nav_gallery">Gallery</a>
                   </li>
                 </ul>
               </li>
-              <li><a href="marina.html">Marina</a></li>
-              <li><a href="event.html">Meetings & Events</a></li>
+
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_accommodation">Accommodation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="rooms.html" data-key="nav_rooms">Rooms</a></li>
+                  <li>
+                    <a href="suites.html" data-key="nav_suites">Suites</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" data-key="nav_wellness">Wellness</a>
+                <ul class="dropdown-menu">
+                  <li><a href="pool.html" data-key="nav_pool">Pool Area</a></li>
+                  <li><a href="spa.html" data-key="nav_spa">Spa</a></li>
+                  <li>
+                    <a href="indoor-playground.html" data-key="nav_playground"
+                      >Indoor Playground</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="marina.html" data-key="nav_marina">Marina</a></li>
+              <li>
+                <a href="event.html" data-key="nav_events">Meetings & Events</a>
+              </li>
             </ul>
           </nav>
         </div>
 
         <div class="nav-book">
-          <a href="#" class="btn-book">Book Now</a>
+          <a href="#" class="btn-book" data-key="book_now">Book Now</a>
+          <button id="langToggle" class="lang-btn">DE</button>
+        </div>
+
+        <div class="mobile-menu-toggle">
+          <span></span><span></span><span></span>
         </div>
       </div>
     </header>
 
-    <!-- HERO -->
-    <section
-      class="hero-section"
-      style="
-        background-image: url(&quot;images/3_Public areas/Terrasse_0024.JPG&quot;);
-      "
-    >
+     <!-- HERO -->
+    <section class="hero-section"
+      style="background-image: url('images/3_Public areas/Terrasse_0024.JPG');">
+
       <div class="hero-overlay"></div>
 
       <div class="hero-content">
-        <h1>Marina</h1>
-        <p>Experience life on the water</p>
-        <a href="#marina-section" class="btn-primary">Explore Marina</a>
+        <h1 data-key="marina_hero_title">Marina</h1>
+        <p data-key="marina_hero_text">Experience life on the water</p>
+        <a href="#marina-section" class="btn-primary" data-key="marina_hero_btn">
+          Explore Marina
+        </a>
       </div>
     </section>
 
     <!-- OVERVIEW -->
     <section class="overview-section">
-      <div class="section-label">Marina</div>
+      <div class="section-label" data-key="marina_overview_label">Marina</div>
 
       <div class="overview-container">
         <div class="overview-divider"></div>
 
-        <h2>Let’s Go!</h2>
+        <h2 data-key="marina_overview_title">Let’s Go!</h2>
 
-        <p data-animate>
+        <p data-key="marina_overview_text" data-animate>
           Discover the heart of Sunday Resort Hafendorf Rheinsberg: the marina
           on Lake Rheinsberg. Everything revolves around maritime flair and life
           on the water.
@@ -113,64 +144,66 @@
 
     <!-- MARINA FEATURES -->
     <section class="facilities-section" id="marina-section">
-      <div class="section-label">Marina Highlights</div>
+      <div class="section-label" data-key="marina_activities_label">
+        Marina Highlights
+      </div>
 
-      <h2>Life on the Water</h2>
+      <h2 data-key="marina_activities_title">Life on the Water</h2>
 
       <div class="facilities-container">
+
         <div class="facility-card">
           <img src="images/1_Accomodation/Penthouse Suite/3_IMG_8675.jpg" />
-          <h3>Harbor Village</h3>
-          <p>
-            Beautiful marina surrounded by picturesque bridges and waterfront
-            views.
+          <h3 data-key="marina_card1_title">Harbor Village</h3>
+          <p data-key="marina_card1_text">
+            Beautiful marina surrounded by picturesque bridges and waterfront views.
           </p>
         </div>
 
         <div class="facility-card">
           <img src="images/2_Facade_Outdoor/image003.jpg" />
-          <h3>Boat Rental</h3>
-          <p>
+          <h3 data-key="marina_card2_title">Boat Rental</h3>
+          <p data-key="marina_card2_text">
             Explore the lake landscape by renting a boat directly at the resort.
           </p>
         </div>
 
         <div class="facility-card">
-          <img
-            src="images/2_Facade_Outdoor/Screenshot 2024-04-09 at 17.43.09.jpg"
-          />
-          <h3>Mooring Service</h3>
-          <p>
+          <img src="images/2_Facade_Outdoor/Screenshot 2024-04-09 at 17.43.09.jpg" />
+          <h3 data-key="marina_card3_title">Mooring Service</h3>
+          <p data-key="marina_card3_text">
             Guests can bring their own boats and use the marina docking service.
           </p>
         </div>
 
         <div class="facility-card">
-          <img
-            src="images/1_Accomodation/Island suit 1 Bedroom/Island suite 1 bedroom/3_IMG_1037.jpg"
-          />
-          <h3>Lake Experience</h3>
-          <p>
-            Enjoy relaxing days by the water with scenic lake views and
-            activities.
+          <img src="images/1_Accomodation/Island suit 1 Bedroom/Island suite 1 bedroom/3_IMG_1037.jpg" />
+          <h3 data-key="marina_card4_title">Lake Experience</h3>
+          <p data-key="marina_card4_text">
+            Enjoy relaxing days by the water with scenic lake views and activities.
           </p>
         </div>
+
       </div>
     </section>
 
     <!-- ACTIVITIES -->
     <section class="activities-section">
-      <div class="section-label">Activities</div>
+      <div class="section-label" data-key="marina_outdoors_label">Activities</div>
 
       <div class="activities-container">
         <div class="activity-card">
-          <h3>Boating</h3>
-          <p>Discover Lake Rheinsberg and surrounding waterways by boat.</p>
+          <h3 data-key="marina_boating_title">Boating</h3>
+          <p data-key="marina_boating_text">
+            Discover Lake Rheinsberg and surrounding waterways by boat.
+          </p>
         </div>
 
         <div class="activity-card">
-          <h3>Waterfront Relaxation</h3>
-          <p>Enjoy peaceful moments by the harbor with maritime atmosphere.</p>
+          <h3 data-key="marina_relax_title">Waterfront Relaxation</h3>
+          <p data-key="marina_relax_text">
+            Enjoy peaceful moments by the harbor with maritime atmosphere.
+          </p>
         </div>
       </div>
     </section>
@@ -178,11 +211,15 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-container">
-        <h2>Discover the Marina</h2>
+        <h2 data-key="marina_cta_title">Discover the Marina</h2>
 
-        <p>Enjoy unforgettable moments by the water at Hafendorf Rheinsberg</p>
+        <p data-key="marina_cta_text">
+          Enjoy unforgettable moments by the water at Hafendorf Rheinsberg
+        </p>
 
-        <a href="contact.html" class="btn-primary">Book Your Stay</a>
+        <a href="contact.html" class="btn-primary" data-key="marina_cta_btn">
+          Book Your Stay
+        </a>
       </div>
     </section>
     <!-- FOOTER -->
